@@ -1,0 +1,18 @@
+.AppHeader h1 {
+  color: black;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 700;
+  font-size: 70px;
+}
+
+.AppHeader h2 {
+  color: #808080;
+  margin-top: -50px;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.AppHeader {
+  text-align: center;
+}

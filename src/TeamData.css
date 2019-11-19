@@ -1,0 +1,482 @@
+.Teams {
+  width: 850px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.TeamHeader {
+  width: 850px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+}
+
+.Circle {
+  background-color: white;
+  border-radius: 50%;
+  width: 180px;
+  height: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.TeamData {
+  display: flex;
+  flex-direction: column;
+  margin-left: 25px;
+  align-items: flex-start;
+}
+
+.TeamData p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 20px;
+  color: #808080;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 700;
+}
+
+#TeamName {
+  font-size: 45px;
+  color: black;
+}
+
+#TeamLogo {
+  height: 140px;
+  width: 140px;
+}
+
+.TeamFixtures {
+  display: flex;
+  flex-direction: column;
+}
+
+.TableInfo {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  background-color: #fdfffc;
+  /* margin-bottom: 10px; */
+}
+
+.PositionTeam {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.Positions {
+  margin-left: 20px;
+}
+
+.Positions > thead > tr > th {
+  display: flex;
+  align-content: flex-start;
+  margin-bottom: 10px;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 20px;
+}
+
+.Positions > tbody > tr > td {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10px;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 20px;
+  color: #808080;
+}
+
+.Clubs {
+  margin-left: 40px;
+}
+
+.Clubs > thead > tr > th {
+  display: flex;
+  justify-content: flex-start;
+  align-content: flex-start;
+  margin-bottom: 10px;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 20px;
+}
+
+.Clubs > tbody > tr > td {
+  display: flex;
+  justify-content: flex-start;
+  padding-bottom: 10px;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 20px;
+  color: #808080;
+}
+
+.TeamTableStats {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-content: flex-start;
+  align-items: flex-start;
+  margin-top: 10px;
+  margin-right: 20px;
+  /* margin-bottom: 10px; */
+}
+
+.Won {
+  margin-left: 120px;
+}
+
+.Won > thead > tr > th {
+  display: flex;
+  justify-content: center;
+  align-content: flex-start;
+  margin-bottom: 10px;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 20px;
+}
+
+.Won > tbody > tr > td {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10px;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 20px;
+  color: #808080;
+}
+
+.Drawn {
+  margin-left: 20px;
+}
+
+.Drawn > thead > tr > th {
+  display: flex;
+  justify-content: center;
+  align-content: flex-start;
+  margin-bottom: 10px;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 20px;
+}
+
+.Drawn > tbody > tr > td {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10px;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 20px;
+  color: #808080;
+}
+
+.Lost {
+  margin-left: 20px;
+}
+
+.Lost > thead > tr > th {
+  display: flex;
+  justify-content: center;
+  align-content: flex-start;
+  margin-bottom: 10px;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 20px;
+}
+
+.Lost > tbody > tr > td {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10px;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 20px;
+  color: #808080;
+}
+
+.GoalsFor {
+  margin-left: 20px;
+}
+
+.GoalsFor > thead > tr > th {
+  display: flex;
+  justify-content: center;
+  align-content: flex-start;
+  margin-bottom: 10px;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 20px;
+}
+
+.GoalsFor > tbody > tr > td {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10px;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 20px;
+  color: #808080;
+}
+
+.GoalsAgainst {
+  margin-left: 20px;
+}
+
+.GoalsAgainst > thead > tr > th {
+  display: flex;
+  justify-content: center;
+  align-content: flex-start;
+  margin-bottom: 10px;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 20px;
+}
+
+.GoalsAgainst > tbody > tr > td {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10px;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 20px;
+  color: #808080;
+}
+
+.GoalDiff {
+  margin-left: 20px;
+}
+
+.GoalDiff > thead > tr > th {
+  display: flex;
+  justify-content: center;
+  align-content: flex-start;
+  margin-bottom: 10px;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 20px;
+}
+
+.GoalDiff > tbody > tr > td {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10px;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 20px;
+  color: #808080;
+}
+
+.Points {
+  margin-left: 20px;
+}
+
+.Points > thead > tr > th {
+  display: flex;
+  justify-content: center;
+  align-content: flex-start;
+  margin: 0px 0px 10px 0px;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 20px;
+}
+
+.Points > tbody > tr > td {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10px;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 20px;
+  color: #808080;
+}
+
+.FixturesTab {
+  display: flex;
+  justify-content: center;
+}
+
+.GameInfo {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  /* align-content: center; */
+  margin: 10px 0px 10px 0px;
+}
+
+.HomeTeam > tbody > tr > td {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  align-content: center;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 20px;
+  width: 250px;
+  height: 25px;
+  margin-bottom: 20px;
+}
+
+#HomeTeamIcon {
+  margin-left: 10px;
+  height: 30px;
+  width: 30px;
+}
+
+.HomeTeamScore > tbody > tr > td {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 15px;
+  height: 25px;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.AwayTeamScore > tbody > tr > td {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 15px;
+  height: 25px;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.AwayTeam > tbody > tr > td {
+  display: flex;
+  justify-content: flex-start;
+  display: flex;
+  justify-content: flex-start;
+  align-content: center;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 20px;
+  width: 250px;
+  height: 25px;
+  margin-bottom: 20px;
+}
+
+#AwayTeamIcon {
+  margin-right: 10px;
+  height: 30px;
+  width: 30px;
+}
+
+.TeamStats {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+}
+
+.MainStats {
+  display: flex;
+  flex-direction: row;
+  height: 90px;
+}
+
+#TotalMatches {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-width: 2px 2px 2px 2px;
+  border-style: solid;
+  width: 200px;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+#TotalMatches span {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+#TotalPlayed {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 25px;
+  color: #808080;
+}
+
+#TotalWins {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-width: 2px 2px 2px 0px;
+  border-style: solid;
+  width: 100px;
+}
+
+#TotalWins span {
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 30px;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+#Wins {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 25px;
+  color: #808080;
+}
+
+#TotalLosses {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-width: 2px 2px 2px 0px;
+  border-style: solid;
+  width: 100px;
+}
+
+#TotalLosses span {
+  display: flex;
+  justify-content: center;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+#Losses {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 25px;
+  color: #808080;
+}
+
+#TotalGoals {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-width: 2px 2px 2px 0px;
+  border-style: solid;
+  width: 100px;
+}
+
+#TotalGoals span {
+  display: flex;
+  justify-content: center;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+#Goals {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 25px;
+  color: #808080;
+}
+
+#TotalGoalsConceded {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-width: 2px 2px 2px 0px;
+  border-style: solid;
+  width: 200px;
+}
+
+#TotalGoalsConceded span {
+  display: flex;
+  justify-content: center;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+#GoalsConceded {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 25px;
+  color: #808080;
+}

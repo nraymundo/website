@@ -1,5 +1,6 @@
-.Education {
+.Contact {
   margin-top: 1000px;
+  margin-bottom: 1100px;
   height: 1500px;
   width: 100%;
   display: flex;
@@ -8,34 +9,34 @@
   align-items: center;
 }
 
-.Header {
+.ContactHeader {
   width: 50%;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  /* flex-direction: row; */
+  /* justify-content: space-between; */
 }
 
-.Header h1 {
+.ContactHeader h1 {
   color: #bababa;
   font-family: "Bebas Neue", sans-serif;
   font-size: 160px;
 }
 
-.Header hr {
+.ContactHeader hr {
   margin-top: 185px;
   height: 1px;
   width: 70%;
   border: 10px solid #bababa;
 }
 
-.EduContent {
+.JobContent {
   display: flex;
   flex-direction: row;
   width: 50%;
   margin-top: -500px;
 }
 
-.NavButtons {
+.ContactNavButtons {
   margin-top: 500px;
   width: 30%;
   display: flex;
@@ -43,7 +44,7 @@
   justify-content: flex-start;
 }
 
-.NavButtons button {
+.ContactNavButtons button {
   width: 80%;
   height: 150px;
   color: #bababa;
@@ -58,29 +59,36 @@
   border-right: none;
 }
 
-.NavButtons button:hover {
+.ContactNavButtons button:hover {
   background-color: #292929;
   border-left: 10px solid #468189;
 }
 
-.SchoolName {
+.ContactInfo {
+  display: flex;
+  flex-direction: column;
   width: 60%;
 }
 
-.SchoolName h1 {
+.ContactType h1 {
   margin-top: 500px;
   background: -webkit-linear-gradient(30deg, #0076a5, #ab0c2f);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  /* color: #0076a5; */
   font-family: "Bebas Neue", sans-serif;
   font-size: 140px;
   font-weight: 700;
   margin-bottom: 60px;
 }
 
-.SchoolName p {
+.ContactType p {
   margin-top: -80px;
+  color: #bababa;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 80px;
+}
+
+.JobDescription li {
   color: #bababa;
   font-family: "Bebas Neue", sans-serif;
   font-size: 80px;

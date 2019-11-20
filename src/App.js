@@ -5,6 +5,8 @@ import "./App.css";
 import AppHeader from "./AppHeader";
 import Intro from "./Intro";
 import Education from "./Education";
+import Experience from "./Experience";
+import Contact from "./Contact";
 
 const App = () => {
   return (
@@ -12,6 +14,8 @@ const App = () => {
       <AppHeader />
       <Intro />
       <Education />
+      <Experience />
+      <Contact />
     </div>
   );
 };

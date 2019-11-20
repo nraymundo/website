@@ -1,26 +1,22 @@
 import React, { useState } from "react";
-import { Navbar, Nav, Form, Button, FormControl } from "react-bootstrap";
+import { Navbar, Nav } from "react-bootstrap";
 
 import "./AppHeader.css";
-
-// const AppHeader = () => (
-//   <div className="AppHeader">
-//     <h1>Take That For Data</h1>
-//     <h2>Premier League | Bundesliga | Serie A | La Liga | Ligue 1</h2>
-//   </div>
-// );
+import resume from "./resume.pdf";
 
 const AppHeader = () => {
   return (
-    <Navbar bg="dark" variant="dark" className="navbar">
-      <Navbar.Brand className="logo">N/CO</Navbar.Brand>
-      <Nav className="navcontent">
-        <Navbar.Text>Education</Navbar.Text>
-        <Navbar.Text>Experience</Navbar.Text>
-        <Navbar.Text>Contact</Navbar.Text>
-        <Navbar.Text>Resume</Navbar.Text>
-      </Nav>
-    </Navbar>
+    <div className="navbarContainer">
+      <Navbar bg="dark" variant="dark" className="navbar">
+        <Navbar.Brand className="logo">N/CO</Navbar.Brand>
+        <Nav className="navcontent">
+          <a href="#educationComponent">Education</a>
+          <a href="#experienceComponent">Experience</a>
+          <a href="#contactComponent">Contact</a>
+          <a href={resume}>Resume</a>
+        </Nav>
+      </Navbar>
+    </div>
   );
 };
 

@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  background-image: linear-gradient(to right, #ededed, white);
+  background-image: linear-gradient(to right, #000000, #00092a);
 }
 
 @import url("https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap");

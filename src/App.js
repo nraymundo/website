@@ -3,13 +3,14 @@ import React from "react";
 import "./App.css";
 
 import AppHeader from "./AppHeader";
-import SearchForm from "./SearchForm";
+import Intro from "./Intro";
 
 const App = () => {
   return (
     <div className="App">
       <AppHeader />
-      {/* <SearchForm /> */}
+      <Intro />
+      <About />
     </div>
   );
 };

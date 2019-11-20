@@ -1,18 +1,25 @@
-.AppHeader h1 {
-  color: black;
-  font-family: "Bebas Neue", sans-serif;
-  font-weight: 700;
-  font-size: 70px;
+.navbar {
+  margin-top: 150px;
+  width: 100%;
+  height: 250px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.AppHeader h2 {
-  color: #808080;
-  margin-top: -50px;
+.logo {
   font-family: "Bebas Neue", sans-serif;
-  font-weight: 400;
-  font-size: 20px;
+  font-size: 150px;
+  margin-left: 100px;
+  color: #bababa;
 }
 
-.AppHeader {
-  text-align: center;
+.navcontent {
+  font-family: "Bebas Neue", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 100px;
+  width: 30%;
+  font-size: 80px;
+  color: #bababa;
 }

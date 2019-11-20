@@ -1,0 +1,30 @@
+/* .TeamInfo div {
+  display: flex;
+  justify-content: center;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 20px;
+  margin-top: 5px;
+} */
+
+.content {
+  height: 1500px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 300px;
+}
+
+.mainParagraph {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+.mainParagraph p {
+  display: flex;
+  justify-content: center;
+  color: #bababa;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 80px;
+}

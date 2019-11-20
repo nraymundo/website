@@ -69,6 +69,11 @@
   border-left: 10px solid #468189;
 }
 
+.ContactNavButtons button:focus {
+  background-color: #292929;
+  outline: 0;
+}
+
 .ContactInfo {
   display: flex;
   flex-direction: column;

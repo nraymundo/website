@@ -28,7 +28,7 @@ const Contact = () => {
         <div className="ContactInfo">
           {currContact === "email" && (
             <div className="emailHeader">
-              <h1>E-Mail Address</h1>
+              <h1>E-Mail</h1>
               <img
                 src={email}
                 alt={"email"}

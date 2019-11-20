@@ -68,6 +68,11 @@
   border-left: 10px solid #468189;
 }
 
+.NavButtons button:focus {
+  background-color: #292929;
+  outline: 0;
+}
+
 .SchoolName {
   width: 60%;
 }

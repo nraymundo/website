@@ -32,10 +32,7 @@
 }
 
 .navcontent a {
+  padding-left: 20px;
   color: white;
   text-decoration: none;
 }
-
-/* .navcontent :visited {
-  color: #bababa;
-} */

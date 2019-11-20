@@ -1,6 +1,5 @@
 import React from "react";
 
-import "./react-tabs.css";
 import "./Intro.css";
 
 const Intro = () => {

@@ -1,5 +1,6 @@
 {
-  "name": "giphy-sample-react-hooks",
+  "name": "nicoraymundo",
+  "homepage": "https://nraymundo.github.io/website/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -14,11 +15,14 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom --coverage",
     "eject": "react-scripts eject"
   },
   "devDependencies": {
+    "gh-pages": "^2.1.1",
     "react-test-renderer": "^16.9.0",
     "sinon": "^7.4.2"
   },

@@ -6,7 +6,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 200px;
+  margin-bottom: 230px;
 }
 
 #contactComponent {
@@ -67,7 +67,7 @@
 
 .ContactNavButtons button:hover {
   background-color: #292929;
-  border-left: 10px solid #468189;
+  border-left: 5px solid #468189;
 }
 
 .ContactNavButtons button:focus {

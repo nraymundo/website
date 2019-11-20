@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 
-import "./react-tabs.css";
 import "./Experience.css";
 
 const Experience = () => {

@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 
-import "./react-tabs.css";
 import "./Contact.css";
 import email from "./images/email.jpg";
 import linkedin from "./images/linkedin.png";

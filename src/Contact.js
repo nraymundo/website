@@ -4,6 +4,7 @@ import "./Contact.css";
 import email from "./images/email.jpg";
 import linkedin from "./images/linkedin.png";
 import github from "./images/github.png";
+import githubdm from "./images/githubdm.png";
 import insta from "./images/insta.png";
 import twitter from "./images/twitter.png";
 

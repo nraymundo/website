@@ -51,7 +51,7 @@ const Experience = () => {
             <div className="JobDescription">
               <li>
                 Gained experience in running a club on a college campus, helping
-                to gain exposure and organize events. events.
+                to gain exposure and organize events.
               </li>
               <li>
                 Learned new aspects of various coding languages through meetings

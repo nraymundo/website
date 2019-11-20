@@ -22,6 +22,7 @@
 
 .Header h1 {
   color: #bababa;
+  /* color: #383d3b; */
   font-family: "Bebas Neue", sans-serif;
   font-size: 60px;
   padding-right: 20px;
@@ -31,7 +32,8 @@
   margin-top: 70px;
   height: 0.5px;
   width: 70%;
-  border: 4px solid #bababa;
+  border: 2px solid #bababa;
+  /* border: 2px solid #383d3b; */
 }
 
 .EduContent {
@@ -53,6 +55,7 @@
   width: 80%;
   height: 80px;
   color: #bababa;
+  /* color: #383d3b; */
   padding-left: 3%;
   text-align: left;
   font-family: "Bebas Neue", sans-serif;
@@ -66,11 +69,13 @@
 
 .NavButtons button:hover {
   background-color: #292929;
+  color: #fdfffc;
   border-left: 5px solid #468189;
 }
 
 .NavButtons button:focus {
   background-color: #292929;
+  color: #fdfffc;
   border-left: 5px solid #468189;
   outline: 0;
 }
@@ -93,6 +98,7 @@
 .SchoolName p {
   margin-top: -25px;
   color: #bababa;
+  /* color: #383d3b; */
   font-family: "Bebas Neue", sans-serif;
   font-size: 30px;
 }

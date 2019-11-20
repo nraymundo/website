@@ -11,14 +11,17 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-image: linear-gradient(to right, #1a1a1a, #00092a);
+  /* background-image: linear-gradient(to right, #1a1a1a, #00092a); */
+  background-image: linear-gradient(to right, #0e0e0e, #151616);
+  /* background-image: linear-gradient(to right, #fdfffc, #ebebeb); */
 }
 
 .logo {
   font-family: "Bebas Neue", sans-serif;
   font-size: 50px;
   margin-left: 100px;
-  color: white;
+  color: #bababa;
+  /* color: #383d3b; */
 }
 
 .navcontent {
@@ -28,11 +31,12 @@
   margin-right: 100px;
   width: 30%;
   font-size: 30px;
-  color: white;
+  color: #bababa;
 }
 
 .navcontent a {
   padding-left: 20px;
-  color: white;
+  color: #bababa;
+  /* color: #383d3b; */
   text-decoration: none;
 }

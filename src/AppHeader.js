@@ -4,6 +4,14 @@ import { Navbar, Nav } from "react-bootstrap";
 import "./AppHeader.css";
 import resume from "./resume.pdf";
 
+// let navStyle = {
+//   backgroundImage: linearGradient("to right", "#fdfffc", "#ebebeb")
+// };
+
+{
+  /* <div className="card" style={{background: "linear-gradient(#e66465, #9198e5);" }}>sada</div> */
+}
+
 const AppHeader = () => {
   return (
     <div className="navbarContainer">

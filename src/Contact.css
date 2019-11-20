@@ -66,6 +66,10 @@
   border-bottom: none;
   border-top: none;
   border-right: none;
+  -webkit-transition: background-color 0.25s;
+  transition: background-color 0.25s;
+  -webkit-transition: color 0.25s;
+  transition: color 0.25s;
 }
 
 .ContactNavButtons button:hover {

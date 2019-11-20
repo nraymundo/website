@@ -1,10 +1,11 @@
 import React from "react";
+import Fade from "react-reveal/Fade";
 
 import "./Intro.css";
 
 const Intro = () => {
   return (
-    <div className="content">
+    <Fade clear duration={4000} className="content">
       <div className="mainParagraph">
         <p>
           Hi! I'm a Computer Science Major at Loyola Marymount University in Los
@@ -20,7 +21,7 @@ const Intro = () => {
           free to reach out!
         </p>
       </div>
-    </div>
+    </Fade>
   );
 };
 

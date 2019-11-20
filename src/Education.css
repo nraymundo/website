@@ -1,0 +1,87 @@
+.Education {
+  margin-top: 1000px;
+  height: 1500px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Header {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.Header h1 {
+  color: #bababa;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 160px;
+}
+
+.Header hr {
+  margin-top: 175px;
+  height: 0.5px;
+  width: 70%;
+  border: 8px solid #bababa;
+}
+
+.EduContent {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  margin-top: -500px;
+}
+
+.NavButtons {
+  margin-top: 500px;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.NavButtons button {
+  width: 80%;
+  height: 150px;
+  color: #bababa;
+  padding-left: 3%;
+  text-align: left;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 80px;
+  background-color: Transparent;
+  border-left: 10px solid #292929;
+  border-bottom: none;
+  border-top: none;
+  border-right: none;
+}
+
+.NavButtons button:hover {
+  background-color: #292929;
+  border-left: 10px solid #468189;
+}
+
+.SchoolName {
+  width: 60%;
+}
+
+.SchoolName h1 {
+  margin-top: 500px;
+  background: -webkit-linear-gradient(30deg, #0076a5, #ab0c2f);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* color: #0076a5; */
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 140px;
+  font-weight: 700;
+  margin-bottom: 60px;
+}
+
+.SchoolName p {
+  margin-top: -80px;
+  color: #bababa;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 80px;
+}

@@ -15,7 +15,7 @@ const AppHeader = () => {
     <Navbar bg="dark" variant="dark" className="navbar">
       <Navbar.Brand className="logo">N/CO</Navbar.Brand>
       <Nav className="navcontent">
-        <Navbar.Text>About</Navbar.Text>
+        <Navbar.Text>Education</Navbar.Text>
         <Navbar.Text>Experience</Navbar.Text>
         <Navbar.Text>Contact</Navbar.Text>
         <Navbar.Text>Resume</Navbar.Text>

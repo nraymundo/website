@@ -7,8 +7,8 @@ const Education = () => {
   let [currEducation, setCurrEducation] = useState("lmu");
 
   return (
-    <Fade clear fraction={0.99} duration={3000} id="educationComponent">
-      <div className="Education">
+    <Fade clear duration={3000}>
+      <div className="Education" id="educationComponent">
         <div className="Header">
           <h1>Education</h1>
           <hr></hr>
@@ -51,6 +51,7 @@ const Education = () => {
             <div className="ProjectsHeader">
               <h1>Course Projects</h1>
               <div className="Classes">
+                <li>Take That for Data</li>
                 <li>High Speed Strike</li>
                 <li>Big Integer</li>
                 <li>Change-Maker</li>

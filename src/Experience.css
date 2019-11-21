@@ -126,6 +126,10 @@
   font-size: 30px;
 }
 
+.JobDescription {
+  list-style-position: outside;
+}
+
 .JobDescription li {
   color: #bababa;
   /* color: #383d3b; */

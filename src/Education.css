@@ -1,7 +1,8 @@
 .Education {
   margin-top: 200px;
   height: 500px;
-  width: 100%;
+  /* width: 100%; */
+  width: 100vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -78,6 +79,93 @@
 }
 
 .NavButtons button:focus {
+  background-color: #292929;
+  color: #fdfffc;
+  border-left: 5px solid #468189;
+  outline: 0;
+}
+
+.Education-mobile {
+  /* margin-top: 200px; */
+  /* height: 500px; */
+  /* width: 100%; */
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#educationComponent-mobile {
+  position: relative;
+  /* padding-top: 200px; */
+}
+
+.Header-mobile {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.Header-mobile h1 {
+  color: #bababa;
+  /* color: #383d3b; */
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 60px;
+  padding-right: 20px;
+}
+
+.Header-mobile hr {
+  margin-top: 70px;
+  height: 0.5px;
+  width: 70%;
+  border: 2px solid #bababa;
+  /* border: 2px solid #383d3b; */
+}
+
+.EduContent-mobile {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  margin-top: -500px;
+}
+
+.NavButtons-mobile {
+  margin-top: 500px;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.NavButtons-mobile button {
+  width: 80%;
+  height: 80px;
+  color: #bababa;
+  /* color: #383d3b; */
+  padding-left: 3%;
+  text-align: left;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 20px;
+  background-color: Transparent;
+  border-left: 5px solid #292929;
+  border-bottom: none;
+  border-top: none;
+  border-right: none;
+  -webkit-transition: background-color 0.25s;
+  transition: background-color 0.25s;
+  -webkit-transition: color 0.25s;
+  transition: color 0.25s;
+}
+
+.NavButtons-mobile button:hover {
+  background-color: #292929;
+  color: #fdfffc;
+  border-left: 5px solid #468189;
+}
+
+.NavButtons-mobile button:focus {
   background-color: #292929;
   color: #fdfffc;
   border-left: 5px solid #468189;

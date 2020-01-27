@@ -1,14 +1,16 @@
 {
   "name": "nicoraymundo",
-  "homepage": "https://nraymundo.github.io/website/",
+  "homepage": "http://nicoraymundo.com",
   "version": "1.0.1",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^4.9.0",
     "node-sass": "^4.13.0",
     "react": "^16.9.0",
     "react-bootstrap": "^1.0.0-beta.14",
     "react-dom": "^16.9.0",
     "react-dropdown": "^1.6.4",
+    "react-responsive": "^8.0.3",
     "react-reveal": "^1.2.2",
     "react-scripts": "3.1.2",
     "react-scroll-to": "^3.0.0-beta.3",

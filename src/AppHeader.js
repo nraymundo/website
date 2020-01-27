@@ -1,9 +1,11 @@
 import React, { useState } from "react";
-import { Navbar, Nav } from "react-bootstrap";
+import { Navbar, Nav, Button } from "react-bootstrap";
 import Fade from "react-reveal/Fade";
+import { useMediaQuery } from "react-responsive";
 
 import "./AppHeader.css";
 import resume from "./resume.pdf";
+import nav from "./images/nav.png";
 
 // let navStyle = {
 //   backgroundImage: linearGradient("to right", "#fdfffc", "#ebebeb")
@@ -14,19 +16,59 @@ import resume from "./resume.pdf";
 }
 
 const AppHeader = () => {
+  const isTabletOrMobile = useMediaQuery({ query: "(max-width: 414px)" });
+  const isTabletOrMobileDevice = useMediaQuery({
+    query: "(max-device-width: 414px)"
+  });
+
+  let [currMenu, setCurrMenu] = useState("menu");
+
   return (
     <Fade top duration={2000}>
-      <div className="navbarContainer">
-        <Navbar bg="dark" variant="dark" className="navbar">
-          <Navbar.Brand className="logo">N/CO</Navbar.Brand>
-          <Nav className="navcontent">
-            <a href="#educationComponent">Education</a>
-            <a href="#experienceComponent">Experience</a>
-            <a href="#contactComponent">Contact</a>
-            <a href={resume}>Resume</a>
-          </Nav>
-        </Navbar>
-      </div>
+      {isTabletOrMobile ? (
+        <div className="header-mobile">
+          <h1 className="logo-mobile">NiiiiiCO</h1>
+          <img
+            src={nav}
+            alt={"nav"}
+            className="button"
+            onClick={() => setCurrMenu("fill")}
+          ></img>
+          <div className="menubar">
+            {currMenu === "fill" && (
+              <div className="mobile-nav">
+                <a href="#educationComponent">Education</a>
+                <a href="#experienceComponent">Experience</a>
+                <a href="#contactComponent">Contact</a>
+                <a href={resume}>Resume</a>
+              </div>
+            )}
+          </div>
+        </div>
+      ) : (
+        // <div className="navbarContainer">
+        //   <Navbar bg="dark" variant="dark" className="navbar">
+        //     <Navbar.Brand className="logo">NiiiiiCO</Navbar.Brand>
+        //     <Nav className="navcontent">
+        //       <a href="#educationComponent">Education</a>
+        //       <a href="#experienceComponent">Experience</a>
+        //       <a href="#contactComponent">Contact</a>
+        //       <a href={resume}>Resume</a>
+        //     </Nav>
+        //   </Navbar>
+        // </div>
+        <div className="navbarContainer">
+          <Navbar bg="dark" variant="dark" className="navbar">
+            <Navbar.Brand className="logo">N/CO</Navbar.Brand>
+            <Nav className="navcontent">
+              <a href="#educationComponent">Education</a>
+              <a href="#experienceComponent">Experience</a>
+              <a href="#contactComponent">Contact</a>
+              <a href={resume}>Resume</a>
+            </Nav>
+          </Navbar>
+        </div>
+      )}
     </Fade>
   );
 };

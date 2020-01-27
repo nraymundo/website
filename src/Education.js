@@ -1,20 +1,25 @@
 import React, { useState } from "react";
 import Fade from "react-reveal/Fade";
+import { useMediaQuery } from "react-responsive";
 
 import "./Education.css";
 
 const Education = () => {
   let [currEducation, setCurrEducation] = useState("lmu");
+  const isTabletOrMobile = useMediaQuery({ query: "(max-width: 414px)" });
 
   return (
     <Fade clear duration={3000}>
-      <div className="Education" id="educationComponent">
-        <div className="Header">
+      <div
+        className={"Education" + (isTabletOrMobile ? "-mobile" : "")}
+        id={"educationComponent" + (isTabletOrMobile ? "-mobile" : "")}
+      >
+        <div className={"Header" + (isTabletOrMobile ? "-mobile" : "")}>
           <h1>Education</h1>
           <hr></hr>
         </div>
-        <div className="EduContent">
-          <div className="NavButtons">
+        <div className={"EduContent" + (isTabletOrMobile ? "-mobile" : "")}>
+          <div className={"NavButtons" + (isTabletOrMobile ? "-mobile" : "")}>
             <button onClick={() => setCurrEducation("lmu")}>University</button>
             <button onClick={() => setCurrEducation("coursework")}>
               Relevant Coursework

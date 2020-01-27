@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/website/static/css/main.4c77e541.chunk.css",
-    "main.js": "/website/static/js/main.5ea83b04.chunk.js",
-    "main.js.map": "/website/static/js/main.5ea83b04.chunk.js.map",
-    "runtime-main.js": "/website/static/js/runtime-main.680f3b95.js",
-    "runtime-main.js.map": "/website/static/js/runtime-main.680f3b95.js.map",
-    "static/js/2.5296ffeb.chunk.js": "/website/static/js/2.5296ffeb.chunk.js",
-    "static/js/2.5296ffeb.chunk.js.map": "/website/static/js/2.5296ffeb.chunk.js.map",
-    "index.html": "/website/index.html",
-    "precache-manifest.403d804df5c0dfa701e7be18ac6c1b7b.js": "/website/precache-manifest.403d804df5c0dfa701e7be18ac6c1b7b.js",
-    "service-worker.js": "/website/service-worker.js",
-    "static/css/main.4c77e541.chunk.css.map": "/website/static/css/main.4c77e541.chunk.css.map",
-    "static/media/email.jpg": "/website/static/media/email.518eb909.jpg",
-    "static/media/insta.png": "/website/static/media/insta.c3c5a6e3.png",
-    "static/media/resume.pdf": "/website/static/media/resume.cb938f07.pdf"
+    "main.css": "nicoraymundo.com/static/css/main.4c77e541.chunk.css",
+    "main.js": "nicoraymundo.com/static/js/main.00a16eb6.chunk.js",
+    "main.js.map": "nicoraymundo.com/static/js/main.00a16eb6.chunk.js.map",
+    "runtime-main.js": "nicoraymundo.com/static/js/runtime-main.32c3d820.js",
+    "runtime-main.js.map": "nicoraymundo.com/static/js/runtime-main.32c3d820.js.map",
+    "static/js/2.5296ffeb.chunk.js": "nicoraymundo.com/static/js/2.5296ffeb.chunk.js",
+    "static/js/2.5296ffeb.chunk.js.map": "nicoraymundo.com/static/js/2.5296ffeb.chunk.js.map",
+    "index.html": "nicoraymundo.com/index.html",
+    "precache-manifest.2ea5b2d165e9d7e238a28a3d59df5391.js": "nicoraymundo.com/precache-manifest.2ea5b2d165e9d7e238a28a3d59df5391.js",
+    "service-worker.js": "nicoraymundo.com/service-worker.js",
+    "static/css/main.4c77e541.chunk.css.map": "nicoraymundo.com/static/css/main.4c77e541.chunk.css.map",
+    "static/media/email.jpg": "nicoraymundo.com/static/media/email.518eb909.jpg",
+    "static/media/insta.png": "nicoraymundo.com/static/media/insta.c3c5a6e3.png",
+    "static/media/resume.pdf": "nicoraymundo.com/static/media/resume.cb938f07.pdf"
   }
 }

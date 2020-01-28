@@ -1,22 +1,11 @@
-.Education {
-  margin-top: 250px;
+/* Education CSS */
+.MainContainer {
   height: 500px;
-  width: 100%;
+  width: 100vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-#fontTest {
-  color: #bababa;
-  font-family: "Ogg", sans-serif;
-  font-size: 40px;
-}
-
-#educationComponent {
-  position: relative;
-  padding-top: 200px;
 }
 
 .Header {
@@ -29,31 +18,18 @@
 
 .Header h1 {
   color: #bababa;
-  /* color: #383d3b; */
   font-family: "Bebas Neue", sans-serif;
   font-size: 60px;
   padding-right: 20px;
 }
 
-.Header hr {
-  margin-top: 70px;
-  height: 0.5px;
-  width: 70%;
-  border: 2px solid #bababa;
-  display: flex;
-  align-content: center;
-  /* border: 2px solid #383d3b; */
-}
-
-.EduContent {
+.SubContainer {
   display: flex;
   flex-direction: row;
   width: 50%;
-  margin-top: -500px;
 }
 
 .NavButtons {
-  margin-top: 500px;
   width: 30%;
   display: flex;
   flex-direction: column;
@@ -64,7 +40,6 @@
   width: 80%;
   height: 80px;
   color: #bababa;
-  /* color: #383d3b; */
   padding-left: 3%;
   text-align: left;
   font-family: "Bebas Neue", sans-serif;
@@ -98,7 +73,6 @@
 }
 
 .SchoolName h1 {
-  margin-top: 500px;
   background: -webkit-linear-gradient(30deg, #0076a5, #ab0c2f);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -111,7 +85,6 @@
 .SchoolName p {
   margin-top: -25px;
   color: #bababa;
-  /* color: #383d3b; */
   font-family: "Bebas Neue", sans-serif;
   font-size: 30px;
 }
@@ -138,4 +111,54 @@
   color: #bababa;
   font-family: "Bebas Neue", sans-serif;
   font-size: 30px;
+}
+
+/* Experience CSS */
+.Job {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+
+.JobInfo h1 {
+  background: -webkit-linear-gradient(30deg, #0076a5, #ab0c2f);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.JobInfo p {
+  margin-top: -25px;
+  color: #bababa;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 30px;
+}
+
+.Playroll h1 {
+  margin-top: 500px;
+  color: #468189;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.Playroll p {
+  margin-top: -25px;
+  color: #bababa;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 30px;
+}
+
+.JobDescription {
+  list-style-position: outside;
+}
+
+.JobDescription li {
+  color: #bababa;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 25px;
 }

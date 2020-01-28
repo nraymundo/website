@@ -8,41 +8,43 @@ import resume from "./resume.pdf";
 
 const AppHeader = ({ setCurrDisplay }) => {
   return (
-    <Fade top duration={4000}>
-      <div className="navbarContainer">
-        <Navbar
-          collapseOnSelect
-          // bg="dark"
-          variant="dark"
-          className="navbar"
-          expand="xl"
+    // <Fade top duration={4000}>
+    <div className="navbarContainer">
+      <Navbar
+        collapseOnSelect
+        // bg="dark"
+        variant="dark"
+        className="navbar"
+        expand="xl"
+      >
+        <Navbar.Brand className="logo">N/CO</Navbar.Brand>
+        <Navbar.Toggle
+          className="toggle"
+          aria-controls="responsive-navbar-nav"
+        />
+        <Navbar.Collapse
+          className="justify-content-end"
+          id="responsive-navbar-nav"
         >
-          <Navbar.Brand className="logo">N/CO</Navbar.Brand>
-          <Navbar.Toggle
-            className="toggle"
-            aria-controls="responsive-navbar-nav"
-          />
-          <Navbar.Collapse
-            className="justify-content-end"
-            id="responsive-navbar-nav"
-          >
-            <Nav className="navcontent">
-              <Nav.Link onClick={() => setCurrDisplay("intro")}>Home</Nav.Link>
-              <Nav.Link onClick={() => setCurrDisplay("education")}>
-                education
-              </Nav.Link>
-              <Nav.Link onClick={() => setCurrDisplay("experience")}>
-                Experience
-              </Nav.Link>
-              <Nav.Link onClick={() => setCurrDisplay("contact")}>
-                Contact
-              </Nav.Link>
-              <Nav.Link href={resume}>Resume</Nav.Link>
-            </Nav>
-          </Navbar.Collapse>
-        </Navbar>
-      </div>
-    </Fade>
+          <Nav className="navcontent">
+            <Nav.Link onClick={() => setCurrDisplay("intro")}>Home</Nav.Link>
+            <Nav.Link onClick={() => setCurrDisplay("education")}>
+              education
+            </Nav.Link>
+            <Nav.Link onClick={() => setCurrDisplay("experience")}>
+              Experience
+            </Nav.Link>
+            {/* <Nav.Link onClick={() => setCurrDisplay("contact")}>
+              Contact
+            </Nav.Link> */}
+            <Nav.Link href={resume} target="newTab">
+              Resume
+            </Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Navbar>
+    </div>
+    // </Fade>
   );
 };
 

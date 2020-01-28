@@ -1,19 +1,18 @@
 import React, { useState } from "react";
 import Fade from "react-reveal/Fade";
 
-import "./Education.css";
+import "./Content.css";
 
 const Education = () => {
   let [currEducation, setCurrEducation] = useState("lmu");
 
   return (
     <Fade clear duration={3000}>
-      <div className="Education" id="educationComponent">
+      <div className="MainContainer" id="educationComponent">
         <div className="Header">
           <h1>Education</h1>
-          {/* <hr></hr> */}
         </div>
-        <div className="EduContent">
+        <div className="SubContainer">
           <div className="NavButtons">
             <button onClick={() => setCurrEducation("lmu")}>University</button>
             <button onClick={() => setCurrEducation("coursework")}>

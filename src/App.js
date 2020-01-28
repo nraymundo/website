@@ -13,11 +13,20 @@ const App = () => {
 
   return (
     <div className="App">
-      <AppHeader setCurrDisplay={setCurrDisplay} />
-      {currDisplay === "intro" && <Intro />}
-      {currDisplay === "education" && <Education />}
-      {currDisplay === "experience" && <Experience />}
-      {currDisplay === "contact" && <Contact />}
+      <div className="AppHeader">
+        <div className="menu">
+          <AppHeader setCurrDisplay={setCurrDisplay} />
+        </div>
+      </div>
+      {/* <div className="menu">
+        <AppHeader setCurrDisplay={setCurrDisplay} />
+      </div> */}
+      <div className="contentTest">
+        {currDisplay === "intro" && <Intro />}
+        {currDisplay === "education" && <Education />}
+        {currDisplay === "experience" && <Experience />}
+        {currDisplay === "contact" && <Contact />}
+      </div>
     </div>
   );
 };

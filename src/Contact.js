@@ -15,12 +15,12 @@ const Contact = () => {
 
   return (
     <Fade clear duration={3000}>
-      <div className="Education" id="educationComponent">
+      <div className="MainContainer" id="educationComponent">
         <div className="Header">
           <h1>Contact</h1>
         </div>
-        <div className="JobContent">
-          <div className="ContactNavButtons">
+        <div className="SubContainer">
+          <div className="NavButtons">
             <button onClick={() => setCurrExperience("email")}>E-Mail</button>
             <button onClick={() => setCurrExperience("linkedin")}>
               Linked In

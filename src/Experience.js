@@ -1,20 +1,20 @@
 import React, { useState } from "react";
 import Fade from "react-reveal/Fade";
 
-import "./Experience.css";
+import "./Content.css";
 
 const Experience = () => {
   let [currExperience, setCurrExperience] = useState("ta");
 
   return (
     <Fade clear duration={3000}>
-      <div className="Experience" id="experienceComponent">
-        <div className="ExpHeader">
+      <div className="MainContainer" id="experienceComponent">
+        <div className="Header">
           <h1>Experience</h1>
           {/* <hr></hr> */}
         </div>
-        <div className="JobContent">
-          <div className="ExpNavButtons">
+        <div className="SubContainer">
+          <div className="NavButtons">
             <button onClick={() => setCurrExperience("ta")}>
               Computer Science TA
             </button>

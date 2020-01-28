@@ -1,17 +1,8 @@
-.navbarContainer {
-  display: flex;
-  justify-content: center;
-  position: relative;
-  z-index: 9999;
-}
-
 .navbar {
   position: fixed !important;
   width: 100%;
   height: 150px;
-  /* background-image: linear-gradient(to right, #1a1a1a, #00092a); */
-  background-image: linear-gradient(to right, #040404, #151616);
-  /* background-image: linear-gradient(to right, #fdfffc, #ebebeb); */
+  /* background-image: linear-gradient(to right, #040404, #151616); */
 }
 
 .logo {

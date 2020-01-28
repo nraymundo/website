@@ -1,13 +1,31 @@
 import React from "react";
 import Fade from "react-reveal/Fade";
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 
 import "./Intro.css";
 
 const Intro = () => {
   return (
-    <Fade clear duration={4000} className="content">
-      <div className="mainParagraph">
-        <p>
+    <Fade clear duration={4000}>
+      <Container>
+        <Row>
+          <Col>
+            <p>
+              Nicolas Raymundo is a developer, photographer, and student
+              currently studying computer science at Loyola Marymount
+              University.
+            </p>
+          </Col>
+        </Row>
+      </Container>
+      {/* <div className="mainParagraph"> */}
+      {/* <p>
+          Nicolas Raymundo is a developer, photographer, and student currently
+          studying computer science at Loyola Marymount University.
+        </p> */}
+      {/* <p>
           Hi! I'm a Computer Science Major at Loyola Marymount University in Los
           Angeles, CA. I'm originally from San Jose, CA but moved to Los Angeles
           for university. I am currently looking for an internship for Summer
@@ -19,8 +37,8 @@ const Intro = () => {
           hold the first ever LMU Hackathon! I love photography, and you can
           view some of my photos through my account "nicoraymundo" on VSCO. Feel
           free to reach out!
-        </p>
-      </div>
+        </p> */}
+      {/* </div> */}
     </Fade>
   );
 };

@@ -1,8 +1,15 @@
 .content {
   height: 500px;
   width: 100%;
-  display: flex;
-  justify-content: center;
+  /* display: flex;
+  justify-content: center; */
+}
+
+.d-flex div {
+  text-align: center;
+  margin-top: 150px;
+  width: 70%;
+  height: 1000px;
 }
 
 .mainParagraph {
@@ -10,16 +17,17 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  align-content: center;
+  width: 70%;
 }
 
 .mainParagraph p {
-  margin-top: 200px;
-  width: 50%;
-  display: flex;
-  justify-content: center;
+  /* margin-top: 200px; */
+  /* display: flex;
+  justify-content: center; */
   color: #bababa;
   /* color: #383d3b; */
-  font-family: "Bebas Neue", sans-serif;
-  font-size: 30px;
+  font-family: "Ogg", sans-serif;
+  /* font-family: "Bebas Neue", sans-serif; */
+  font-size: 60px;
 }

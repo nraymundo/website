@@ -7,8 +7,6 @@ import Col from "react-bootstrap/Col";
 import "./Intro.css";
 
 const Intro = () => {
-  const isTabletOrMobile = useMediaQuery({ query: "(max-width: 414px)" });
-
   return (
     <Fade clear duration={4000}>
       <Container>

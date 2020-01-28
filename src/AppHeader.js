@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import { Navbar, Nav, Button } from "react-bootstrap";
+import Navbar from "react-bootstrap/NavBar";
+import Nav from "react-bootstrap/Nav";
 import Fade from "react-reveal/Fade";
 import { useMediaQuery } from "react-responsive";
 
@@ -24,51 +25,40 @@ const AppHeader = () => {
   let [currMenu, setCurrMenu] = useState("menu");
 
   return (
+    // <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+    //   <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+    //   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+    //   <Navbar.Collapse id="responsive-navbar-nav">
+    //     <Nav className="mr-auto">
+    //       <Nav.Link href="#features">Features</Nav.Link>
+    //       <Nav.Link href="#pricing">Pricing</Nav.Link>
+    //     </Nav>
+    //   </Navbar.Collapse>
+    // </Navbar>
     <Fade top duration={2000}>
-      {isTabletOrMobile ? (
-        <div className="header-mobile">
-          <h1 className="logo-mobile">NiiiiiCO</h1>
-          <img
-            src={nav}
-            alt={"nav"}
-            className="button"
-            onClick={() => setCurrMenu("fill")}
-          ></img>
-          <div className="menubar">
-            {currMenu === "fill" && (
-              <div className="mobile-nav">
-                <a href="#educationComponent">Education</a>
-                <a href="#experienceComponent">Experience</a>
-                <a href="#contactComponent">Contact</a>
-                <a href={resume}>Resume</a>
-              </div>
-            )}
-          </div>
-        </div>
-      ) : (
-        // <div className="navbarContainer">
-        //   <Navbar bg="dark" variant="dark" className="navbar">
-        //     <Navbar.Brand className="logo">NiiiiiCO</Navbar.Brand>
-        //     <Nav className="navcontent">
-        //       <a href="#educationComponent">Education</a>
-        //       <a href="#experienceComponent">Experience</a>
-        //       <a href="#contactComponent">Contact</a>
-        //       <a href={resume}>Resume</a>
-        //     </Nav>
-        //   </Navbar>
-        // </div>
-        <div className="navbarContainer">
-          <Navbar bg="dark" variant="dark" className="navbar">
-            <Navbar.Brand className="logo">N/CO</Navbar.Brand>
+      <div className="navbarContainer">
+        <Navbar
+          collapseOnSelect
+          // bg="dark"
+          variant="dark"
+          className="navbar"
+          expand="lg"
+        >
+          <Navbar.Brand className="logo">N/CO</Navbar.Brand>
+          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+          <Navbar.Collapse
+            className="justify-content-end"
+            id="responsive-navbar-nav"
+          >
             <Nav className="navcontent">
-              <a href="#educationComponent">Education</a>
-              <a href="#experienceComponent">Experience</a>
-              <a href="#contactComponent">Contact</a>
-              <a href={resume}>Resume</a>
+              <Nav.Link href="#educationComponent">Education</Nav.Link>
+              <Nav.Link href="#experienceComponent">Experience</Nav.Link>
+              <Nav.Link href="#contactComponent">Contact</Nav.Link>
+              <Nav.Link href={resume}>Resume</Nav.Link>
             </Nav>
-          </Navbar>
-        </div>
-      )}
+          </Navbar.Collapse>
+        </Navbar>
+      </div>
     </Fade>
   );
 };

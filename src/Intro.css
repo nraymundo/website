@@ -1,5 +1,4 @@
 .mainParagraph {
-  /* margin-top: 450px; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -7,11 +6,10 @@
 }
 
 .mainParagraph p {
-  /* margin-top: 200px; */
-  width: 50%;
+  width: 60%;
   display: flex;
   justify-content: center;
-  color: #bababa;
+  color: #444444;
   font-family: "Ogg", sans-serif;
-  font-size: 50px;
+  font-size: 60px;
 }

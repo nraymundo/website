@@ -10,9 +10,10 @@
   font-size: 50px !important;
   margin-left: 10px;
   margin-left: 100px;
-  background: -webkit-linear-gradient(30deg, #e26d5c, #ffe1a8);
+  color: #bababa;
+  /* background: -webkit-linear-gradient(30deg, #e26d5c, #ffe1a8);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent; */
 }
 
 .toggle {
@@ -26,11 +27,30 @@
   margin-right: 100px;
   width: 30%;
   font-size: 30px;
-  color: #bababa;
 }
 
-.navcontent a {
+/* .navcontent a {
   padding-left: 20px;
-  color: #bababa;
+  color: orange;
   text-decoration: none;
+} */
+
+.NavLink {
+  color: #bababa !important;
+}
+
+.NavLink:hover {
+  color: #2f2f2f !important;
+}
+
+.NavLink:focus {
+  color: #2f2f2f !important;
+}
+
+.ResumeLink {
+  color: #bababa !important;
+}
+
+.ResumeLink:hover {
+  color: #2f2f2f !important;
 }

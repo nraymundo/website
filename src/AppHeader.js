@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Navbar from "react-bootstrap/NavBar";
 import Nav from "react-bootstrap/Nav";
+import Link from "react-bootstrap/Nav";
 import Fade from "react-reveal/Fade";
 
 import "./AppHeader.css";
@@ -27,17 +28,28 @@ const AppHeader = ({ setCurrDisplay }) => {
           id="responsive-navbar-nav"
         >
           <Nav className="navcontent">
-            <Nav.Link onClick={() => setCurrDisplay("intro")}>Home</Nav.Link>
-            <Nav.Link onClick={() => setCurrDisplay("education")}>
-              education
+            <Nav.Link
+              onClick={() => setCurrDisplay("intro")}
+              className="NavLink"
+            >
+              Home
             </Nav.Link>
-            <Nav.Link onClick={() => setCurrDisplay("experience")}>
+            <Nav.Link
+              onClick={() => setCurrDisplay("education")}
+              className="NavLink"
+            >
+              Education
+            </Nav.Link>
+            <Nav.Link
+              onClick={() => setCurrDisplay("experience")}
+              className="NavLink"
+            >
               Experience
             </Nav.Link>
             {/* <Nav.Link onClick={() => setCurrDisplay("contact")}>
               Contact
             </Nav.Link> */}
-            <Nav.Link href={resume} target="newTab">
+            <Nav.Link href={resume} target="newTab" className="ResumeLink">
               Resume
             </Nav.Link>
           </Nav>

@@ -1,33 +1,15 @@
-.content {
-  height: 500px;
-  width: 100%;
-  /* display: flex;
-  justify-content: center; */
-}
-
-.d-flex div {
-  text-align: center;
-  margin-top: 150px;
-  width: 70%;
-  height: 1000px;
-}
-
 .mainParagraph {
-  margin-top: 150px;
   display: flex;
   justify-content: center;
   align-items: center;
-  align-content: center;
-  width: 70%;
+  width: 100%;
 }
 
 .mainParagraph p {
-  /* margin-top: 200px; */
-  /* display: flex;
-  justify-content: center; */
-  color: #bababa;
-  /* color: #383d3b; */
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  color: #444444;
   font-family: "Ogg", sans-serif;
-  /* font-family: "Bebas Neue", sans-serif; */
   font-size: 60px;
 }

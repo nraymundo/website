@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 
 import "./App.css";
 
@@ -9,13 +9,15 @@ import Experience from "./Experience";
 import Contact from "./Contact";
 
 const App = () => {
+  let [currDisplay, setCurrDisplay] = useState("intro");
+
   return (
     <div className="App">
-      <AppHeader />
-      {/* <Intro /> */}
-      {/* <Education /> */}
-      {/* <Experience /> */}
-      {/* <Contact /> */}
+      <AppHeader setCurrDisplay={setCurrDisplay} />
+      {currDisplay === "intro" && <Intro />}
+      {currDisplay === "education" && <Education />}
+      {currDisplay === "experience" && <Experience />}
+      {currDisplay === "contact" && <Contact />}
     </div>
   );
 };

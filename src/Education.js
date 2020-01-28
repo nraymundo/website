@@ -11,7 +11,7 @@ const Education = () => {
       <div className="Education" id="educationComponent">
         <div className="Header">
           <h1>Education</h1>
-          <hr></hr>
+          {/* <hr></hr> */}
         </div>
         <div className="EduContent">
           <div className="NavButtons">

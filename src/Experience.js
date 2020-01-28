@@ -7,11 +7,11 @@ const Experience = () => {
   let [currExperience, setCurrExperience] = useState("ta");
 
   return (
-    <Fade clear fraction={0.5} duration={3000}>
+    <Fade clear duration={3000}>
       <div className="Experience" id="experienceComponent">
         <div className="ExpHeader">
           <h1>Experience</h1>
-          <hr></hr>
+          {/* <hr></hr> */}
         </div>
         <div className="JobContent">
           <div className="ExpNavButtons">

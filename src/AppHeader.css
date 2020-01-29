@@ -7,17 +7,13 @@
 
 .logo {
   font-family: "Bebas Neue", sans-serif;
-  font-size: 50px !important;
+  font-size: 40px !important;
   margin-left: 10px;
   margin-left: 100px;
   color: #bababa !important;
 }
 
 .logo:hover {
-  color: #2f2f2f !important;
-}
-
-.logo:focus {
   color: #2f2f2f !important;
 }
 
@@ -31,7 +27,7 @@
   justify-content: space-between;
   margin-right: 100px;
   width: 30%;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 /* .navcontent a {

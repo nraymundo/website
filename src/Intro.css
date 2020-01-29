@@ -10,7 +10,6 @@
   display: flex;
   justify-content: center;
   color: #444444;
-  /* font-family: "Ogg", sans-serif; */
-  font-family: "Bebas Neue", sans-serif;
+  font-family: "Ogg", sans-serif;
   font-size: 60px;
 }

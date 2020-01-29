@@ -1,3 +1,9 @@
+@font-face {
+  font-family: "Ogg";
+  src: url("http://db.onlinewebfonts.com/t/2596224269750e00c3ad5356299a3b9f.ttf")
+    format("truetype");
+}
+
 .mainParagraph {
   display: flex;
   justify-content: center;
@@ -10,6 +16,6 @@
   display: flex;
   justify-content: center;
   color: #444444;
-  font-family: "Ogg", sans-serif;
-  font-size: 60px;
+  font-family: "Ogg";
+  font-size: 40px;
 }

@@ -36,12 +36,8 @@ const Education = () => {
               <div className="Classes">
                 <li>Databases</li>
                 <li>Programming Languages</li>
-                <li>Interaction Design</li>
                 <li>Intro to Theory of Computation</li>
-                <li>Calculus I, II</li>
-                <li>Methods of Proof</li>
                 <li>Data Structures</li>
-                <li>Computer Systems Organization</li>
                 <li>Algorithms</li>
               </div>
             </div>

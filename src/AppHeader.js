@@ -18,7 +18,12 @@ const AppHeader = ({ setCurrDisplay }) => {
         className="navbar"
         expand="xl"
       >
-        <Navbar.Brand className="logo">N/CO</Navbar.Brand>
+        <Nav.Link onClick={() => setCurrDisplay("intro")} className="logo">
+          N/CO
+        </Nav.Link>
+        {/* <Navbar.Brand className="logo" onClick={() => setCurrDisplay("intro")}>
+          N/CO
+        </Navbar.Brand> */}
         <Navbar.Toggle
           className="toggle"
           aria-controls="responsive-navbar-nav"
@@ -28,12 +33,12 @@ const AppHeader = ({ setCurrDisplay }) => {
           id="responsive-navbar-nav"
         >
           <Nav className="navcontent">
-            <Nav.Link
+            {/* <Nav.Link
               onClick={() => setCurrDisplay("intro")}
               className="NavLink"
             >
               Home
-            </Nav.Link>
+            </Nav.Link> */}
             <Nav.Link
               onClick={() => setCurrDisplay("education")}
               className="NavLink"

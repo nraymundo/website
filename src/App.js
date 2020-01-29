@@ -18,9 +18,6 @@ const App = () => {
           <AppHeader setCurrDisplay={setCurrDisplay} />
         </div>
       </div>
-      {/* <div className="menu">
-        <AppHeader setCurrDisplay={setCurrDisplay} />
-      </div> */}
       <div className="contentTest">
         {currDisplay === "intro" && <Intro />}
         {currDisplay === "education" && <Education />}

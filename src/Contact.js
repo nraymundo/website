@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import Fade from "react-reveal/Fade";
 
-import "./Contact.css";
-import "./Experience.css";
 import email from "./images/email.jpg";
 import linkedin from "./images/linkedin.png";
 import github from "./images/github.png";

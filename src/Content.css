@@ -6,7 +6,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-left: 100px;
+  /* padding-left: 100px; */
 }
 
 .Header {
@@ -157,6 +157,86 @@
 
 .JobDescription li {
   color: #bababa;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 25px;
+}
+
+/* Projects CSS */
+.Header-Projects {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  /* margin-left: -100px; */
+}
+
+.Header-Projects h1 {
+  color: #bababa;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 60px;
+  padding-right: 20px;
+}
+
+.Menu-Projects {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 2vw;
+}
+
+.Menu-Projects img {
+  width: 15vw;
+  height: 30vh;
+  backface-visibility: hidden;
+}
+
+.Pivot-Logo:hover {
+  opacity: 0.2;
+}
+
+.Container-Projects {
+  /* position: relative; */
+  width: 15vw;
+  height: 30vh;
+}
+
+.Logo {
+  opacity: 1;
+  /* display: block; */
+  width: 100vw;
+  height: 100vw;
+  height: auto;
+  /* backface-visibility: hidden; */
+}
+
+.Info-Projects {
+  opacity: 0;
+  /* position: absolute; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 15vw;
+  height: 5vh;
+  /* top: 50%;
+  left: 50%; */
+  transform: translate(0%, -350%);
+  /* -ms-transform: translate(-50%, -50%); */
+  text-align: center;
+}
+
+.Container-Projects:hover .Pivot-Logo {
+  opacity: 0.2;
+}
+
+.Container-Projects:hover .Info-Projects {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  width: 100vw;
+  text-align: center;
   font-family: "Bebas Neue", sans-serif;
   font-size: 25px;
 }

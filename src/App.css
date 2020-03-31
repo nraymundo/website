@@ -4,16 +4,17 @@
   height: 100vh;
   width: 100vw;
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
+  flex-direction: column;
 }
 
-.Menu {
-  position: absolute;
+.AppHeader {
+  height: auto;
 }
 
 .contentTest {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* background-color: orange; */
+  height: 80%;
 }

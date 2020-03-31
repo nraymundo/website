@@ -15,7 +15,15 @@ const Experience = () => {
         <div className="Container-Projects">
           <img src={pivot} alt="pivot" className="Logo"></img>
           <div class="Info-Projects">
-            <div class="text">Pivot</div>
+            <div class="Info-Name">Pivot</div>
+            <button
+              class="Repo-Link"
+              onClick={() =>
+                window.open("https://github.com/wdibi/Pivot", "_blank")
+              }
+            >
+              GitHub Repo
+            </button>
           </div>
         </div>
         <div className="Container-Projects">
@@ -30,12 +38,12 @@ const Experience = () => {
             <div class="text">NFA Simulator</div>
           </div>
         </div>
-        <div className="Container-Projects">
+        {/* <div className="Container-Projects">
           <img src={spotify} alt="spotify" className="Logo"></img>
           <div class="Info-Projects">
             <div class="text">Soccer Stats</div>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

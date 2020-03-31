@@ -8,14 +8,25 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  width: 100vw;
 }
 
 .mainParagraph p {
-  width: 60%;
-  display: flex;
-  justify-content: center;
-  color: #444444;
+  width: 50vw;
+  /* display: flex;
+  justify-content: center; */
+  color: #6b6b6b;
   font-family: "Ogg";
   font-size: 40px;
+}
+
+.intext-hyperlink {
+  color: #dce0d9;
+  /* font-family: "Helvetica", sans-serif; */
+}
+
+.intext-hyperlink:hover {
+  color: #ab0c2f;
+  text-decoration: none;
+  /* font-family: "Helvetica", sans-serif; */
 }

@@ -15,9 +15,7 @@ const App = () => {
   return (
     <div className="App">
       <div className="AppHeader">
-        <div className="menu">
-          <AppHeader setCurrDisplay={setCurrDisplay} />
-        </div>
+        <AppHeader setCurrDisplay={setCurrDisplay} />
       </div>
       <div className="contentTest">
         {currDisplay === "intro" && <Intro />}

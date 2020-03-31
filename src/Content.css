@@ -185,11 +185,11 @@
   margin-top: 2vw;
 }
 
-.Menu-Projects img {
+/* .Menu-Projects img {
   width: 15vw;
   height: 30vh;
   backface-visibility: hidden;
-}
+} */
 
 .Pivot-Logo:hover {
   opacity: 0.2;
@@ -199,33 +199,37 @@
   /* position: relative; */
   width: 15vw;
   height: 30vh;
+  display: flex;
+  align-items: flex-end;
 }
 
 .Logo {
   opacity: 1;
   /* display: block; */
-  width: 100vw;
-  height: 100vw;
+  width: 15vw;
   height: auto;
+  /* height: auto; */
+  /* position: relative; */
   /* backface-visibility: hidden; */
 }
 
 .Info-Projects {
+  position: absolute;
   opacity: 0;
-  /* position: absolute; */
-  display: flex;
-  justify-content: center;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center; */
   align-items: center;
-  width: 15vw;
-  height: 5vh;
-  /* top: 50%;
-  left: 50%; */
-  transform: translate(0%, -350%);
+  display: block;
+  width: auto;
+  /* height: auto; */
+  transform: translate(-3%, -20%);
   /* -ms-transform: translate(-50%, -50%); */
   text-align: center;
+  border: 2px solid purple;
 }
 
-.Container-Projects:hover .Pivot-Logo {
+.Container-Projects:hover .Logo {
   opacity: 0.2;
 }
 
@@ -233,10 +237,29 @@
   opacity: 1;
 }
 
-.text {
+.Info-Name {
   color: white;
   width: 100vw;
   text-align: center;
   font-family: "Bebas Neue", sans-serif;
-  font-size: 25px;
+  font-size: 55px;
+  width: auto;
+  margin-top: 20px;
+  /* display: flex; */
+  /* flex-direction: column; */
+}
+
+.Repo-Link {
+  color: black;
+  background-color: white;
+  border: none;
+  text-align: center;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 20px;
+  width: 7vw;
+  /* height: vh; */
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-top: -10px;
 }

@@ -102,11 +102,11 @@
   margin-bottom: 20px;
 }
 
-.emailLogo {
+/* .emailLogo {
   margin-top: -20px;
   width: 10%;
   height: auto;
-}
+} */
 
 .linkedinHeader h1 {
   /* margin-top: 500px; */
@@ -117,11 +117,11 @@
   margin-bottom: 20px;
 }
 
-.linkedinLogo {
+/* .linkedinLogo {
   margin-top: -20px;
   max-width: 10%;
   height: auto;
-}
+} */
 
 .githubHeader h1 {
   /* margin-top: 500px; */
@@ -133,15 +133,12 @@
   margin-bottom: 20px;
 }
 
-.githubLogo {
+/* .githubLogo {
   margin-top: -20px;
   margin-left: -20px;
   width: 15%;
   height: auto;
-  /* margin-left: -20px;
-  width: 10%;
-  height: auto; */
-}
+} */
 
 .instaHeader h1 {
   /* margin-top: 500px; */

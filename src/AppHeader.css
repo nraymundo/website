@@ -35,26 +35,26 @@
 }
 
 .NavLink {
-  color: black !important;
+  color: #6b6b6b !important;
   /* padding-bottom: 1px !important; */
 }
 
 .NavLink:hover {
   padding-bottom: 1px !important;
-  border-bottom: 2px solid #000;
+  border-bottom: 2px solid black;
 }
 
 .NavLink:focus {
   padding-bottom: 1px !important;
-  border-bottom: 2px solid #000;
+  border-bottom: 2px solid black;
 }
 
 .ResumeLink {
-  color: black !important;
+  color: #6b6b6b !important;
   /* padding-bottom: 1px !important; */
 }
 
 .ResumeLink:hover {
   padding-bottom: 1px !important;
-  border-bottom: 2px solid #000;
+  border-bottom: 2px solid black;
 }

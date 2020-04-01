@@ -6,6 +6,7 @@ import AppHeader from "./AppHeader";
 import Intro from "./Intro";
 import Education from "./Education";
 import Experience from "./Experience";
+import About from "./About";
 import Projects from "./Projects";
 // import Contact from "./Buttons";
 
@@ -21,6 +22,7 @@ const App = () => {
         {currDisplay === "intro" && <Intro />}
         {currDisplay === "education" && <Education />}
         {currDisplay === "experience" && <Experience />}
+        {currDisplay === "about" && <About />}
         {currDisplay === "projects" && <Projects />}
       </div>
     </div>

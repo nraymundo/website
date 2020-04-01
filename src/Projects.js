@@ -1,52 +1,81 @@
-import React, { useState } from "react";
-import "./Content.css";
-import pivot from "./images/Projects/pivot.png";
-import spotify from "./images/Projects/spotify.png";
+import React from "react";
 
-const Experience = () => {
-  //   let [currExperience, setCurrExperience] = useState("ta");
+import "./Projects.css";
 
+import jonah from "./images/Filler/jonah.jpg";
+import pivot from "./images/Projects/pivot.jpg";
+import playroll from "./images/Projects/playroll.jpg";
+import playroll2 from "./images/Projects/loading.png";
+import soccer from "./images/Projects/soccer.jpg";
+
+const Projects = () => {
   return (
-    <div className="MainContainer">
-      <div className="Header-Projects">
-        <h1>Projects</h1>
+    <div className="projects-container">
+      <div className="projects-header">
+        <h1 className="projects-title">Latest Projects</h1>
+        <hr className="horizontal-line" />
       </div>
-      <div className="Menu-Projects">
-        <div className="Container-Projects">
-          <img src={pivot} alt="pivot" className="Logo"></img>
-          <div class="Info-Projects">
-            <div class="Info-Name">Pivot</div>
-            <button
-              class="Repo-Link"
-              onClick={() =>
-                window.open("https://github.com/wdibi/Pivot", "_blank")
-              }
-            >
-              GitHub Repo
-            </button>
-          </div>
-        </div>
-        <div className="Container-Projects">
-          <img src={spotify} alt="spotify" className="Logo"></img>
-          <div class="Info-Projects">
-            <div class="text">Playroll</div>
-          </div>
-        </div>
-        <div className="Container-Projects">
-          <img src={spotify} alt="spotify" className="Logo"></img>
-          <div class="Info-Projects">
-            <div class="text">NFA Simulator</div>
-          </div>
-        </div>
-        {/* <div className="Container-Projects">
-          <img src={spotify} alt="spotify" className="Logo"></img>
-          <div class="Info-Projects">
-            <div class="text">Soccer Stats</div>
-          </div>
-        </div> */}
+      <div className="project-individual-container-top">
+        <img src={playroll2} alt="playroll" className="playroll-img" />
+        <h1 className="project-individual-title">Playroll</h1>
+        <h1 className="project-individual-date">Spring 2019</h1>
+        <hr className="horizontal-line-projects" />
+      </div>
+      <div className="project-individual-container">
+        <img src={pivot} alt="pivot" className="pivot-img" />
+        <h1
+          onClick={() =>
+            window.open("https://github.com/wdibi/Pivot", "_blank")
+          }
+          className="project-individual-title"
+        >
+          Pivot
+        </h1>
+        <h1 className="project-individual-date">Spring 2020</h1>
+        <hr className="horizontal-line-projects" />
+      </div>
+      <div className="project-individual-container">
+        <img src={soccer} alt="soccer" className="pivot-img" />
+        <h1
+          onClick={() =>
+            window.open("https://github.com/nraymundo/cmsi370", "_blank")
+          }
+          className="project-individual-title"
+        >
+          Take That For Data
+        </h1>
+        <h1 className="project-individual-date">Fall 2019</h1>
+        <hr className="horizontal-line-projects" />
+      </div>
+      <div className="project-individual-container-bottom">
+        <img src={jonah} alt="jonah" className="jonah-img" />
+        <h1
+          onClick={() =>
+            window.open("https://github.com/nraymundo/cmsi385", "_blank")
+          }
+          className="project-individual-title"
+        >
+          NFA Simulator
+        </h1>
+        <h1 className="project-individual-date">Fall 2019</h1>
+        <hr className="horizontal-line-projects" />
       </div>
     </div>
+
+    // <div className="MainContainer">
+    //   <div className="Header-Projects">
+    //     <h1>Projects</h1>
+    //   </div>
+    //   <div className="Menu-Projects">
+    //     <div className="Container-Projects">
+    //       <img src={pivot} alt="pivot" className="Logo"></img>
+    //       <div class="Info-Projects">
+    //         <div class="Info-Name">Pivot</div>
+    //       </div>
+    //     </div>
+    //   </div>
+    // </div>
   );
 };
 
-export default Experience;
+export default Projects;

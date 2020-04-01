@@ -31,31 +31,30 @@
   justify-content: space-between;
   margin-right: 50px;
   /* width: 30%; */
-  font-size: 17px;
+  font-size: 15px;
 }
 
-/* .navcontent a {
-  padding-left: 20px;
-  color: orange;
-  text-decoration: none;
-} */
-
 .NavLink {
-  color: #6b6b6b !important;
+  color: black !important;
+  /* padding-bottom: 1px !important; */
 }
 
 .NavLink:hover {
-  color: black !important;
+  padding-bottom: 1px !important;
+  border-bottom: 2px solid #000;
 }
 
 .NavLink:focus {
-  color: black !important;
+  padding-bottom: 1px !important;
+  border-bottom: 2px solid #000;
 }
 
 .ResumeLink {
-  color: #6b6b6b !important;
+  color: black !important;
+  /* padding-bottom: 1px !important; */
 }
 
 .ResumeLink:hover {
-  color: black !important;
+  padding-bottom: 1px !important;
+  border-bottom: 2px solid #000;
 }

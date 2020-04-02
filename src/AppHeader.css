@@ -41,12 +41,12 @@
 
 .NavLink:hover {
   padding-bottom: 1px !important;
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid #c09891;
 }
 
 .NavLink:focus {
   padding-bottom: 1px !important;
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid #c09891;
 }
 
 .ResumeLink {
@@ -56,5 +56,5 @@
 
 .ResumeLink:hover {
   padding-bottom: 1px !important;
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid #c09891;
 }

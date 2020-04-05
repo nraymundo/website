@@ -69,11 +69,3 @@ const About = () => {
 };
 
 export default About;
-
-// I currently am working as a UX Engineer at GoDaddy,
-// which is where my passion for design and development converge.
-// See my previous work history on LinkedIn. Outside of work I have a beautiful wife and cat (obviously).
-// I am also working on a few side projects including Investment Calculator
-// (a simple tool to teach people about investing) and dayofthedead.holiday.
-// Currently I am not accepting freelance work, but
-// I'd love to get coffee and get to know you, so don’t hesitate to get in touch.

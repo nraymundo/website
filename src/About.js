@@ -55,6 +55,7 @@ const About = () => {
               <li>React</li>
               <li>SQL</li>
               <li>Git</li>
+              <li>MongoDB</li>
               <li>Mac OS</li>
               <li>Windows</li>
               <li>Linux</li>

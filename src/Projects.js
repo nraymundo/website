@@ -3,7 +3,7 @@ import React from "react";
 import "./Projects.css";
 
 import jonah from "./images/Filler/jonah.jpg";
-import pivot from "./images/Projects/pivot.jpg";
+// import pivot from "./images/Projects/pivot.jpg";
 import playroll from "./images/Projects/playroll.jpg";
 import playroll2 from "./images/Projects/loading.png";
 import soccer from "./images/Projects/soccer.jpg";
@@ -24,7 +24,7 @@ const Projects = () => {
         <hr className="horizontal-line-projects" />
       </div>
       <div className="project-individual-container">
-        <img src={pivot} alt="pivot" className="pivot-img" />
+        <img src={jonah} alt="jonah" className="jonah-img" />
         <a
           href="https://github.com/wdibi/Pivot"
           className="project-individual-title"

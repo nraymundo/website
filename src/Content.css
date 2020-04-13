@@ -6,7 +6,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-left: 100px;
+  /* padding-left: 100px; */
 }
 
 .Header {
@@ -159,4 +159,107 @@
   color: #bababa;
   font-family: "Bebas Neue", sans-serif;
   font-size: 25px;
+}
+
+/* Projects CSS */
+.Header-Projects {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  /* margin-left: -100px; */
+}
+
+.Header-Projects h1 {
+  color: #bababa;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 60px;
+  padding-right: 20px;
+}
+
+.Menu-Projects {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 2vw;
+}
+
+/* .Menu-Projects img {
+  width: 15vw;
+  height: 30vh;
+  backface-visibility: hidden;
+} */
+
+.Pivot-Logo:hover {
+  opacity: 0.2;
+}
+
+.Container-Projects {
+  /* position: relative; */
+  width: 15vw;
+  height: 30vh;
+  display: flex;
+  align-items: flex-end;
+}
+
+.Logo {
+  opacity: 1;
+  /* display: block; */
+  width: 15vw;
+  height: auto;
+  /* height: auto; */
+  /* position: relative; */
+  /* backface-visibility: hidden; */
+}
+
+.Info-Projects {
+  position: absolute;
+  opacity: 0;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center; */
+  align-items: center;
+  display: block;
+  width: auto;
+  /* height: auto; */
+  transform: translate(-3%, -20%);
+  /* -ms-transform: translate(-50%, -50%); */
+  text-align: center;
+  border: 2px solid purple;
+}
+
+.Container-Projects:hover .Logo {
+  opacity: 0.2;
+}
+
+.Container-Projects:hover .Info-Projects {
+  opacity: 1;
+}
+
+.Info-Name {
+  color: white;
+  width: 100vw;
+  text-align: center;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 55px;
+  width: auto;
+  margin-top: 20px;
+  /* display: flex; */
+  /* flex-direction: column; */
+}
+
+.Repo-Link {
+  color: black;
+  background-color: white;
+  border: none;
+  text-align: center;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 20px;
+  width: 7vw;
+  /* height: vh; */
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-top: -10px;
 }

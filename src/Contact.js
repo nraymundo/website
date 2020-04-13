@@ -1,14 +1,14 @@
 import React, { useState } from "react";
 import Fade from "react-reveal/Fade";
 
-import email from "./images/email.jpg";
-import linkedin from "./images/linkedin.png";
-import github from "./images/github.png";
+import email from "./images/Contact/email.jpg";
+import linkedin from "./images/Contact/linkedin.png";
+import github from "./images/Contact/github.png";
 import githubdm from "./images/githubdm.png";
-import insta from "./images/insta.png";
-import twitter from "./images/twitter.png";
+import insta from "./images/Contact/insta.png";
+import twitter from "./images/Contact/twitter.png";
 
-const Contact = () => {
+const Contacts = () => {
   let [currExperience, setCurrExperience] = useState("email");
 
   return (
@@ -108,7 +108,7 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default Contacts;
 
 // const Contact = () => {
 //   let [currContact, setCurrContact] = useState("email");

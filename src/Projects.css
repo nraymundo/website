@@ -1,0 +1,178 @@
+.projects-container {
+  width: 100vw;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.projects-header {
+  margin-top: 5%;
+  width: 70%;
+}
+
+.projects-title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 35px;
+}
+
+.project-individual-container-top {
+  width: 60%;
+  height: 80%;
+  margin-top: 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+
+.project-individual-container {
+  width: 60%;
+  height: 80%;
+  margin: 3% 0% 0% 0%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+
+.project-individual-container-bottom {
+  width: 60%;
+  height: 80%;
+  margin: 3% 0% 3% 0%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+
+.jonah-img {
+  width: 100%;
+  height: 70%;
+  object-fit: cover;
+  object-position: 0% 10%;
+}
+
+.pivot-img {
+  width: 100%;
+  height: 70%;
+  object-fit: cover;
+  object-position: 0% 50%;
+}
+
+.playroll-img {
+  width: 100%;
+  height: 70%;
+  object-fit: cover;
+  object-position: 0% 50%;
+}
+
+.project-individual-title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  margin: 0;
+  color: black;
+  text-decoration: none;
+}
+
+.project-individual-title:hover {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  margin: 0;
+  color: #c09891;
+  text-decoration: none;
+}
+
+.project-individual-date {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  margin: -3% 0% 0% 0%;
+}
+
+.horizontal-line-projects {
+  /* margin-top: 5%; */
+  width: 100%;
+  border: 0.5px solid black;
+  margin: 0;
+}
+
+/*  */
+
+.Pivot-Logo:hover {
+  opacity: 0.2;
+}
+
+.Logo {
+  opacity: 1;
+  /* display: block; */
+  width: 15vw;
+  height: auto;
+  /* height: auto; */
+  /* position: relative; */
+  /* backface-visibility: hidden; */
+}
+
+.hover-layer {
+  position: absolute;
+  opacity: 0;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center; */
+  align-items: center;
+  display: block;
+  width: auto;
+  /* height: auto; */
+  transform: translate(500%, -20%);
+  /* -ms-transform: translate(-50%, -50%); */
+  text-align: center;
+  border: 2px solid purple;
+}
+
+.project-individual-container-top .hober-text {
+  text-align: center;
+  font-size: 18px;
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -moz-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+/* .playroll-img:hover {
+  opacity: 0.5;
+}
+
+.project-individual-container-top:hover .hover-layer {
+  opacity: 1;
+} */
+
+.Info-Name {
+  color: white;
+  width: 100vw;
+  text-align: center;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 55px;
+  width: auto;
+  margin-top: 20px;
+}
+
+/* .Repo-Link {
+  color: black;
+  background-color: white;
+  border: none;
+  text-align: center;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 20px;
+  width: 7vw;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-top: -10px;
+} */

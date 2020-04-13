@@ -1,0 +1,36 @@
+.Sidebar {
+  width: 100vw;
+  height: 20vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.ButtonG {
+  /* width: 4%; */
+  /* height: 40%; */
+  display: flex;
+  justify-content: flex-start;
+}
+
+.githubLogo {
+  margin-bottom: 20px;
+  margin-left: 38px;
+  width: 8%;
+  height: auto;
+}
+
+.linkedinLogo {
+  margin-left: 50px;
+  margin-bottom: 20px;
+  margin-top: 40px;
+  width: 8%;
+  height: auto;
+}
+
+.emailLogo {
+  /* margin-top: 20px; */
+  margin-left: 46px;
+  width: 8%;
+  height: auto;
+}

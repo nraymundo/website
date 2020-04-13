@@ -6,7 +6,9 @@ import AppHeader from "./AppHeader";
 import Intro from "./Intro";
 import Education from "./Education";
 import Experience from "./Experience";
-import Contact from "./Contact";
+import About from "./About";
+import Projects from "./Projects";
+// import Contact from "./Buttons";
 
 const App = () => {
   let [currDisplay, setCurrDisplay] = useState("intro");
@@ -14,15 +16,14 @@ const App = () => {
   return (
     <div className="App">
       <div className="AppHeader">
-        <div className="menu">
-          <AppHeader setCurrDisplay={setCurrDisplay} />
-        </div>
+        <AppHeader setCurrDisplay={setCurrDisplay} />
       </div>
       <div className="contentTest">
         {currDisplay === "intro" && <Intro />}
         {currDisplay === "education" && <Education />}
         {currDisplay === "experience" && <Experience />}
-        {currDisplay === "contact" && <Contact />}
+        {currDisplay === "about" && <About />}
+        {currDisplay === "projects" && <Projects />}
       </div>
     </div>
   );

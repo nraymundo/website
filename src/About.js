@@ -47,6 +47,8 @@ const About = () => {
               <li>HTML/CSS</li>
               <li>C/C++</li>
               <li>Swift</li>
+              <li>Assembly</li>
+              <li>TypeScript</li>
             </ul>
           </div>
           <div className="skills-tech">
@@ -56,6 +58,7 @@ const About = () => {
               <li>SQL</li>
               <li>Git</li>
               <li>MongoDB</li>
+              <li>Tableau</li>
               <li>Mac OS</li>
               <li>Windows</li>
               <li>Linux</li>

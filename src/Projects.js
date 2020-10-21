@@ -10,20 +10,34 @@ import soccer from "./images/Projects/soccer.jpg";
 
 const Projects = () => {
   return (
-    <div className="projects-container">
+    <div className="projects-page">
       <div className="projects-header">
         <h1 className="projects-title">Latest Projects</h1>
         <hr className="horizontal-line" />
       </div>
-      <div className="project-individual-container-top">
-        <img src={playroll2} alt="playroll" className="playroll-img" />
-        <a href="" target="_blank" className="project-individual-title">
-          Playroll
-        </a>
-        <h1 className="project-individual-date">Spring 2019</h1>
+      <div className="projects-container">
+        <div className="project-individual-container-top">
+          {/* <img src={playroll2} alt="playroll" /> */}
+          <img src={playroll2} alt="playroll" className="playroll-img" />
+          <a href="" target="_blank" className="project-individual-title">
+            Pivot
+          </a>
+          <h1 className="project-individual-date">Spring 2020</h1>
+          {/* <hr className="horizontal-line-projects" /> */}
+        </div>
+        <hr className="horizontal-line-projects" />
+        <div className="project-individual-container-top">
+          {/* <img src={playroll2} alt="playroll" /> */}
+          <img src={jonah} alt="jonah" className="jonah-img" />
+          <a href="" target="_blank" className="project-individual-title">
+            NFA Simulator
+          </a>
+          <h1 className="project-individual-date">Fall 2019</h1>
+          {/* <hr className="horizontal-line-projects" /> */}
+        </div>
         <hr className="horizontal-line-projects" />
       </div>
-      <div className="project-individual-container">
+      {/* <div className="project-individual-container">
         <img src={jonah} alt="jonah" className="jonah-img" />
         <a
           href="https://github.com/wdibi/Pivot"
@@ -58,7 +72,7 @@ const Projects = () => {
         </a>
         <h1 className="project-individual-date">Fall 2019</h1>
         <hr className="horizontal-line-projects" />
-      </div>
+      </div> */}
     </div>
 
     // <div className="MainContainer">

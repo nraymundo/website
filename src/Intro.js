@@ -15,25 +15,7 @@ const Intro = () => {
           </a>
           .
         </p>
-        {/* <p className="intro-content">
-          Hello, my name is Nico. I am a developer and photographer currently
-          studying computer science at{" "}
-          <a class="intext-hyperlink" href="http://lmu.edu" target="_blank">
-            Loyola Marymount University
-          </a>
-          .
-        </p> */}
       </div>
-      {/* <div className="mainParagraph">
-        <p>
-          Hello, my name is Nico. I am a developer and photographer currently
-          studying computer science at{" "}
-          <a class="intext-hyperlink" href="http://lmu.edu" target="_blank">
-            Loyola Marymount University
-          </a>
-          .
-        </p>
-      </div> */}
     </Fade>
   );
 };

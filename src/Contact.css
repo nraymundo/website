@@ -1,175 +1,77 @@
-.Contact {
-  /* margin-top: 200px; */
-  height: 500px;
-  /* width: 100%; */
-  width: 100vw;
+.contacts-page {
+  width: 100%;
+  height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  margin-bottom: 230px;
 }
 
-#contactComponent {
-  position: relative;
-  /* padding-top: 250px; */
-}
-
-.ContactHeader {
-  width: 50%;
-  display: flex;
-  /* flex-direction: row; */
-  /* justify-content: space-between; */
-}
-
-.ContactHeader h1 {
-  color: #bababa;
-  /* color: #383d3b; */
-  font-family: "Bebas Neue", sans-serif;
-  font-size: 60px;
-  padding-right: 20px;
-}
-
-.ContactHeader hr {
-  /* margin-top: 70px; */
-  height: 0.5px;
+.contacts-header {
+  margin-top: 5%;
   width: 70%;
-  border: 2px solid #bababa;
-  /* border: 2px solid #383d3b; */
 }
 
-.JobContent {
+.contacts-title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+
+.icon-container {
+  width: 70%;
   display: flex;
   flex-direction: row;
-  width: 50%;
-  /* margin-top: -500px; */
+  justify-content: space-evenly;
 }
 
-.ContactNavButtons {
-  /* margin-top: 500px; */
-  width: 30%;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-}
-
-.ContactNavButtons button {
-  width: 80%;
-  height: 80px;
-  color: #bababa;
-  /* color: #383d3b; */
-  padding-left: 3%;
-  text-align: left;
-  font-family: "Bebas Neue", sans-serif;
-  font-size: 20px;
-  background-color: Transparent;
-  border-left: 5px solid #292929;
-  border-bottom: none;
-  border-top: none;
-  border-right: none;
-  -webkit-transition: background-color 0.25s;
-  transition: background-color 0.25s;
-  -webkit-transition: color 0.25s;
-  transition: color 0.25s;
-}
-
-.ContactNavButtons button:hover {
-  background-color: #292929;
-  color: #fdfffc;
-  border-left: 5px solid #468189;
-}
-
-.ContactNavButtons button:focus {
-  background-color: #292929;
-  color: #fdfffc;
-  border-left: 5px solid #468189;
-  outline: 0;
-}
-
-.ContactInfo {
-  display: flex;
-  flex-direction: column;
-  width: 70%;
-}
-
-.emailHeader h1 {
-  /* margin-top: 500px; */
-  color: #bababa;
-  /* color: #383d3b; */
-  font-family: "Bebas Neue", sans-serif;
-  font-size: 40px;
-  font-weight: 700;
-  margin-bottom: 20px;
-}
-
-/* .emailLogo {
-  margin-top: -20px;
-  width: 10%;
-  height: auto;
-} */
-
-.linkedinHeader h1 {
-  /* margin-top: 500px; */
-  color: #2867b2;
-  font-family: "Bebas Neue", sans-serif;
-  font-size: 40px;
-  font-weight: 700;
-  margin-bottom: 20px;
-}
-
-/* .linkedinLogo {
-  margin-top: -20px;
-  max-width: 10%;
-  height: auto;
-} */
-
-.githubHeader h1 {
-  /* margin-top: 500px; */
-  color: #bababa;
-  /* color: #383d3b; */
-  font-family: "Bebas Neue", sans-serif;
-  font-size: 40px;
-  font-weight: 700;
-  margin-bottom: 20px;
-}
-
-/* .githubLogo {
-  margin-top: -20px;
-  margin-left: -20px;
-  width: 15%;
-  height: auto;
-} */
-
-.instaHeader h1 {
-  /* margin-top: 500px; */
-  background: -webkit-linear-gradient(90deg, #833ab4, #fd1d1d);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-family: "Bebas Neue", sans-serif;
-  font-size: 40px;
-  font-weight: 700;
-  margin-bottom: 20px;
-}
-
-.instaLogo {
-  margin-top: -20px;
-  /* margin-left: -60px; */
-  width: 10%;
+.icon {
+  /* max-width: 230px;
+  max-height: 95px; */
+  width: auto;
   height: auto;
 }
 
-.twitterHeader h1 {
-  /* margin-top: 500px; */
-  color: #1da1f2;
-  font-family: "Bebas Neue", sans-serif;
-  font-size: 40px;
-  font-weight: 700;
-  margin-bottom: 20px;
+@media screen and (max-width: 500px) {
+  .contacts-title {
+    font-size: 24px;
+  }
+  .icon {
+    max-width: 45px;
+    max-height: 25px;
+  }
 }
-
-.twitterLogo {
-  margin-top: -30px;
-  margin-left: -20px;
-  width: 15%;
-  height: auto;
+@media screen and (min-width: 501px) {
+  .contacts-title {
+    font-size: 30px;
+  }
+  .icon {
+    max-width: 100px;
+    max-height: 50px;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .contacts-title {
+    font-size: 30px;
+  }
+  .icon {
+    max-width: 150px;
+    max-height: 70px;
+  }
+}
+@media screen and (min-width: 1300px) {
+  .contacts-title {
+    font-size: 50px;
+  }
+  .icon {
+    max-width: 180px;
+    max-height: 90px;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .contacts-title {
+    font-size: 50px;
+  }
+  .icon {
+    max-width: 200px;
+    max-height: 120px;
+  }
 }

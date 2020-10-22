@@ -18,13 +18,15 @@ const Projects = () => {
       <div className="projects-container">
         <div className="project-individual-container-top">
           {/* <img src={playroll2} alt="playroll" /> */}
-          <a
-            href="https://github.com/wdibi/Pivot"
-            target="_blank"
-            className="clickable-img"
-          >
-            <img src={pivot} alt="pivot" className="pivot-img" />
-          </a>
+          <span className="overlay">
+            <a
+              href="https://github.com/wdibi/Pivot"
+              target="_blank"
+              className="clickable-img"
+            >
+              <img src={pivot} alt="pivot" className="pivot-img" />
+            </a>
+          </span>
           <a
             href="https://github.com/wdibi/Pivot"
             target="_blank"
@@ -36,13 +38,15 @@ const Projects = () => {
         </div>
         <hr className="horizontal-line-projects" />
         <div className="project-individual-container-top">
-          <a
-            href="https://github.com/wdibi/Pivot"
-            target="_blank"
-            className="clickable-img"
-          >
-            <img src={nfa} alt="nfa" className="jonah-img" />
-          </a>
+          <span className="overlay">
+            <a
+              href="https://github.com/wdibi/Pivot"
+              target="_blank"
+              className="clickable-img"
+            >
+              <img src={nfa} alt="nfa" className="jonah-img" />
+            </a>
+          </span>
           <a
             href="https://github.com/nraymundo/cmsi385"
             target="_blank"

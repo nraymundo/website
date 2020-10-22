@@ -9,6 +9,7 @@ import Intro from "./Intro";
 import About from "./About";
 import Projects from "./Projects";
 import Resume from "./resume.pdf";
+import Contacts from "./Contact";
 import registerServiceWorker from "./registerServiceWorker";
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -33,12 +34,16 @@ const routing = (
             <Link to={Resume} target="newTab" className="ResumeLink">
               Resume
             </Link>
+            <Link to="/contact" className="NavLink">
+              Contact
+            </Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
       <Route exact path="/" component={App} />
       <Route path="/about" component={About} />
       <Route path="/projects" component={Projects} />
+      <Route path="/contact" component={Contacts} />
     </div>
   </Router>
 );

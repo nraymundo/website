@@ -31,7 +31,7 @@
     font-size: 22px;
   }
   .repo-container {
-    width: 30%;
+    width: 25%;
     height: auto;
   }
 }
@@ -46,13 +46,13 @@
     font-size: 15px;
   }
   .text {
-    font-size: 12px;
+    font-size: 14px;
   }
   .text h1 {
     font-size: 26px;
   }
   .repo-container {
-    width: 13%;
+    width: 9%;
     height: auto;
   }
 }
@@ -76,7 +76,7 @@
     font-size: 28px;
   }
   .repo-container {
-    width: 10%;
+    width: 8%;
     height: auto;
   }
 }

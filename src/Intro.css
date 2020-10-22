@@ -11,13 +11,13 @@
   justify-content: center;
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 375px) {
   .intro-content {
     font-size: 24px;
     width: 50%;
   }
 }
-@media screen and (min-width: 351px) {
+@media screen and (min-width: 376px) {
   .intro-content {
     font-size: 35px;
     width: 60%;

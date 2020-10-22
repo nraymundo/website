@@ -6,7 +6,6 @@ import jonah from "./images/Filler/jonah.jpg";
 import pivot from "./images/Projects/pivot.jpg";
 import nfa from "./images/Projects/nfa.jpg";
 import playroll from "./images/Projects/playroll.jpg";
-import playroll2 from "./images/Projects/loading.png";
 import soccer from "./images/Projects/soccer.jpg";
 
 const Projects = () => {

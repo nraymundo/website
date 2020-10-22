@@ -1,3 +1,3 @@
-## Nicoraymundo.com
+## nicoraymundo.com
 
 Code for my personal website.

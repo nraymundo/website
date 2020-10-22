@@ -9,28 +9,35 @@
   height: 100%;
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 350px) {
   .intro-content {
     font-size: 24px;
+    width: 50%;
+  }
+}
+@media screen and (min-width: 351px) {
+  .intro-content {
+    font-size: 35px;
+    width: 60%;
   }
 }
 @media screen and (min-width: 701px) {
   .intro-content {
     font-size: 40px;
+    /* width: 50%; */
   }
 }
 @media screen and (min-width: 1600px) {
   .intro-content {
-    font-size: 60px;
+    font-size: 50px;
+    /* width: 50%; */
   }
 }
 
 .intro-content {
   height: 50%;
-  width: 50%;
   color: #6b6b6b;
   font-family: "Ogg";
   /* font-size: 40px; */

@@ -10,7 +10,7 @@ const About = () => {
         <h1 className="about-title">About Me</h1>
         <hr className="horizontal-line" />
         <p className="about-me-content">
-          I currently am studying Computer Science at Loyola Marymount
+          I am currently studying Computer Science at Loyola Marymount
           University in Los Angeles, CA. I was born and raised in San Jose, CA
           but decided to migrate south to further my education. Living in Los
           Angeles has given me an opportunity to try new things, visit new
@@ -52,9 +52,9 @@ const About = () => {
             </ul>
           </div>
           <div className="skills-tech">
-            <h2 className="list-title">Technologies</h2>
+            <h2 className="list-title">Software</h2>
             <ul className="list-content">
-              <li>React</li>
+              <li>React JS</li>
               <li>SQL</li>
               <li>Git</li>
               <li>MongoDB</li>

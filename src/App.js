@@ -2,7 +2,6 @@ import React, { useState } from "react";
 
 import "./App.css";
 
-import AppHeader from "./AppHeader";
 import Intro from "./Intro";
 import Education from "./Education";
 import Experience from "./Experience";
@@ -15,9 +14,9 @@ const App = () => {
 
   return (
     <div className="App">
-      <div className="AppHeader">
+      {/* <div className="AppHeader">
         <AppHeader setCurrDisplay={setCurrDisplay} />
-      </div>
+      </div> */}
       <div className="contentTest">
         {currDisplay === "intro" && <Intro />}
         {currDisplay === "education" && <Education />}

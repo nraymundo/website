@@ -1,7 +1,9 @@
+html,
 body {
   margin: 0;
   padding: 0;
   background-color: #ffffff;
+  height: 100%;
 }
 
 [data-reactroot] {
@@ -18,11 +20,50 @@ body {
   width: 100vw;
 }
 
+@media screen and (max-width: 400px) {
+  .logo {
+    font-size: 24px;
+    margin-left: 0px;
+  }
+  .navContent {
+    font-size: 12px;
+    margin-right: 0px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .logo {
+    font-size: 24px;
+    margin-left: 0px;
+  }
+}
+@media screen and (min-width: 701px) {
+  .logo {
+    font-size: 40px;
+    margin-left: 40px;
+  }
+  .navContent {
+    font-size: 20px;
+    margin-right: 50px;
+  }
+}
+@media screen and (min-width: 1300px) {
+  .navContent {
+    font-size: 25px;
+    margin-right: 50px;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .logo {
+    font-size: 60px;
+    margin-left: 60px;
+  }
+}
+
 .logo {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
-  font-size: 40px !important;
-  margin-left: 40px;
+  /* font-size: 40px !important; */
+  /* margin-left: 40px; */
   color: #6b6b6b;
 }
 
@@ -40,8 +81,6 @@ body {
   font-weight: 300;
   display: flex;
   justify-content: space-between;
-  margin-right: 50px;
-  font-size: 15px;
 }
 
 .NavLink {

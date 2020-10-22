@@ -63,7 +63,7 @@ const About = () => {
               <li>Windows</li>
               <li>Linux</li>
               <li>Terminal</li>
-              <li>Adobe Photoshop/Illustrator/InDesign</li>
+              <li>Adobe Photoshop</li>
             </ul>
           </div>
         </div>

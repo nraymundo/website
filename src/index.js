@@ -5,6 +5,7 @@ import Navbar from "react-bootstrap/NavBar";
 import Nav from "react-bootstrap/Nav";
 import "./index.css";
 import App from "./App";
+import Intro from "./Intro";
 import About from "./About";
 import Projects from "./Projects";
 import Resume from "./resume.pdf";

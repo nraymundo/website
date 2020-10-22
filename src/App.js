@@ -14,9 +14,6 @@ const App = () => {
 
   return (
     <div className="App">
-      {/* <div className="AppHeader">
-        <AppHeader setCurrDisplay={setCurrDisplay} />
-      </div> */}
       <div className="contentTest">
         {currDisplay === "intro" && <Intro />}
         {currDisplay === "education" && <Education />}

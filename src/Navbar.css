@@ -25,8 +25,8 @@
 .content {
   width: 90%;
   height: 100px;
-  position: absolute;
-  margin-top: 40px;
+  position: relative;
+  /* margin-top: 40px; */
 }
 
 .justify-content-end {

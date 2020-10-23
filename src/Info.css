@@ -1,10 +1,10 @@
 @media screen and (max-width: 350px) {
   .intro-content {
-    font-size: 25px;
+    font-size: 27px;
     width: 50%;
   }
   .main-paragraph {
-    margin-top: 15%;
+    margin-top: -15%;
   }
   .divider {
     margin-top: 15%;
@@ -33,11 +33,11 @@
 }
 @media screen and (min-width: 351px) {
   .intro-content {
-    font-size: 30px;
+    font-size: 35px;
     width: 60%;
   }
   .main-paragraph {
-    margin-top: 25%;
+    margin-top: -10%;
   }
   .divider {
     margin-top: 15%;
@@ -66,6 +66,9 @@
   }
 }
 @media screen and (min-width: 390px) {
+  .main-paragraph {
+    margin-top: -5%;
+  }
   .intro-content {
     font-size: 35px;
     width: 60%;
@@ -95,7 +98,7 @@
     width: 60%;
   }
   .main-paragraph {
-    margin-top: 10%;
+    margin-top: -12%;
   }
   .about {
     width: 100%;
@@ -120,7 +123,7 @@
     /* width: 50%; */
   }
   .main-paragraph {
-    margin-top: 12%;
+    margin-top: -10%;
   }
 }
 @media screen and (min-width: 750px) {
@@ -129,7 +132,7 @@
     /* width: 50%; */
   }
   .main-paragraph {
-    margin-top: 10%;
+    margin-top: -5%;
   }
   .bottom-section {
     flex-direction: row;
@@ -147,7 +150,7 @@
     /* width: 50%; */
   }
   .main-paragraph {
-    margin-top: 10%;
+    margin-top: 1%;
   }
   .bottom-section {
     margin-top: 1%;
@@ -158,7 +161,7 @@
     font-size: 60px;
   }
   .main-paragraph {
-    margin-top: 10%;
+    /* margin-top: %; */
   }
   .bottom-section {
     margin-top: 1%;

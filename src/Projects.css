@@ -1,10 +1,28 @@
+@media screen and (max-width: 350px) {
+  .projects-page {
+    margin-top: -13% !important;
+  }
+}
+@media screen and (min-width: 351px) {
+  .projects-page {
+    margin-top: -8% !important;
+  }
+}
+@media screen and (min-width: 750px) {
+  .projects-page {
+    margin-top: 2% !important;
+  }
+}
+@media screen and (min-width: 1200px) {
+}
+
 .projects-page {
   width: 90%;
   height: 100vh;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  margin-top: 8% !important;
+  /* margin-top: 8% !important; */
   justify-content: center;
   margin: auto;
 }

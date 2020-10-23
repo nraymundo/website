@@ -1,52 +1,18 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { Route, Link, BrowserRouter as Router } from "react-router-dom";
-import Navbar from "react-bootstrap/NavBar";
-import Nav from "react-bootstrap/Nav";
 import "./index.css";
 import App from "./App";
-import Intro from "./Intro";
-import About from "./About";
-import Projects from "./Projects";
-import Resume from "./resume.pdf";
-import Contacts from "./Contact";
-import registerServiceWorker from "./registerServiceWorker";
-import "bootstrap/dist/css/bootstrap.min.css";
+import * as serviceWorker from "./serviceWorker";
+import { BrowserRouter } from "react-router-dom";
 
-const routing = (
-  <Router>
-    <div>
-      <Navbar>
-        <Link to="/" className="logo">
-          N/CO
-        </Link>
-        <Navbar.Collapse className="justify-content-end" id="basic-navbar-nav">
-          <Nav className="navContent">
-            <Link to="/" className="NavLink">
-              Home
-            </Link>
-            <Link to="/about" className="NavLink">
-              About
-            </Link>
-            <Link to="/projects" className="NavLink">
-              Projects
-            </Link>
-            <Link to={Resume} target="newTab" className="ResumeLink">
-              Resume
-            </Link>
-            <Link to="/contact" className="NavLink">
-              Contact
-            </Link>
-          </Nav>
-        </Navbar.Collapse>
-      </Navbar>
-      <Route exact path="/" component={App} />
-      <Route path="/about" component={About} />
-      <Route path="/projects" component={Projects} />
-      <Route path="/contact" component={Contacts} />
-    </div>
-  </Router>
+ReactDOM.render(
+  <BrowserRouter>
+    <App />
+  </BrowserRouter>,
+  document.getElementById("root")
 );
 
-ReactDOM.render(routing, document.getElementById("root"));
-registerServiceWorker();
+// If you want your app to work offline and load faster, you can change
+// unregister() to register() below. Note this comes with some pitfalls.
+// Learn more about service workers: https://bit.ly/CRA-PWA
+serviceWorker.register();

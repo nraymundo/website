@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.f56860c3.chunk.css",
-    "main.js": "/static/js/main.48244042.chunk.js",
-    "main.js.map": "/static/js/main.48244042.chunk.js.map",
+    "main.css": "/static/css/main.acbed67e.chunk.css",
+    "main.js": "/static/js/main.6adaa000.chunk.js",
+    "main.js.map": "/static/js/main.6adaa000.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.edfbce29.js",
     "runtime-main.js.map": "/static/js/runtime-main.edfbce29.js.map",
     "static/css/2.d9ad5f5c.chunk.css": "/static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.d49cc124.chunk.js": "/static/js/2.d49cc124.chunk.js",
-    "static/js/2.d49cc124.chunk.js.map": "/static/js/2.d49cc124.chunk.js.map",
+    "static/js/2.884d636a.chunk.js": "/static/js/2.884d636a.chunk.js",
+    "static/js/2.884d636a.chunk.js.map": "/static/js/2.884d636a.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.bbe92aeff796b0762d9191965235de2f.js": "/precache-manifest.bbe92aeff796b0762d9191965235de2f.js",
+    "precache-manifest.dc8e5d4a08d287e25ea96fcf6c1eaffc.js": "/precache-manifest.dc8e5d4a08d287e25ea96fcf6c1eaffc.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.d9ad5f5c.chunk.css.map": "/static/css/2.d9ad5f5c.chunk.css.map",
-    "static/css/main.f56860c3.chunk.css.map": "/static/css/main.f56860c3.chunk.css.map",
-    "static/js/2.d49cc124.chunk.js.LICENSE.txt": "/static/js/2.d49cc124.chunk.js.LICENSE.txt",
+    "static/css/main.acbed67e.chunk.css.map": "/static/css/main.acbed67e.chunk.css.map",
+    "static/js/2.884d636a.chunk.js.LICENSE.txt": "/static/js/2.884d636a.chunk.js.LICENSE.txt",
     "static/media/email.jpg": "/static/media/email.518eb909.jpg",
     "static/media/githubb.svg": "/static/media/githubb.76d344f0.svg",
     "static/media/insta.png": "/static/media/insta.c3c5a6e3.png",
@@ -21,14 +21,14 @@
     "static/media/nfa.jpg": "/static/media/nfa.d2b3fdd1.jpg",
     "static/media/pivot.jpg": "/static/media/pivot.bbc7fd5b.jpg",
     "static/media/playroll.jpg": "/static/media/playroll.e6044479.jpg",
-    "static/media/resume.pdf": "/static/media/resume.cb938f07.pdf",
+    "static/media/resume.pdf": "/static/media/resume.073e8da0.pdf",
     "static/media/soccer.jpg": "/static/media/soccer.d107c15e.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.edfbce29.js",
     "static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.d49cc124.chunk.js",
-    "static/css/main.f56860c3.chunk.css",
-    "static/js/main.48244042.chunk.js"
+    "static/js/2.884d636a.chunk.js",
+    "static/css/main.acbed67e.chunk.css",
+    "static/js/main.6adaa000.chunk.js"
   ]
 }

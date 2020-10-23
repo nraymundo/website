@@ -1,20 +1,19 @@
-import React, { useState } from "react";
+import React, { Component } from "react";
+import NavigationBar from "./Navbar";
+import { Route } from "react-router-dom";
+import Info from "./Info";
+import Projects from "./Projects";
+import Journal from "./Journal";
 
 import "./App.css";
 
-import Intro from "./Intro";
-import About from "./About";
-import Projects from "./Projects";
-// import Contact from "./Buttons";
-
-const App = () => {
-  let [currDisplay, setCurrDisplay] = useState("intro");
-
+export default function App() {
   return (
-    <div className="App">
-      <div className="contentTest">{currDisplay === "intro" && <Intro />}</div>
+    <div>
+      <NavigationBar />
+      <Route exact path="/" component={Info} />
+      <Route path="/projects" component={Projects} />
+      <Route path="/journal" component={Journal} />
     </div>
   );
-};
-
-export default App;
+}
